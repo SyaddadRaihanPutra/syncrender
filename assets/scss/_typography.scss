@@ -1,0 +1,100 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+ 
+// Font Family Variable with Value
+// font-family: 'Circular Std';
+//font-family: 'Syne', sans-serif;
+
+$heading-font: 'Circular Std', sans-serif;
+$body-font: 'Circular Std', sans-serif;
+$text-font:'Nunito', sans-serif;
+$text-font_7:'Syne', sans-serif;
+//font-family: "Font Awesome 5 Pro";
+$fa: "Font Awesome 5 Pro";
+
+body {
+    font-family: $body-font;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #696969;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    margin: 0px;
+    font-weight: 700;    
+    color: #211e3b;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: -3px;
+
+    @media (max-width: 767px) {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    &.fs-lg {
+        font-size: 150px;
+        line-height: 80%;
+
+        @media (min-width: 767px) and (max-width: 991px) {
+            font-size: 42px;
+        }
+    }
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: -3px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 32px;
+    @include transition(.4s);
+    color: #211e3b;
+}
+
+p {
+    margin: 0px;
+}
+

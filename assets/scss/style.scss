@@ -1,0 +1,114 @@
+/*
+Template: Techex - Information & Technology HTML Template
+Author: RRDevs
+Author URI: https://themeforest.net/user/rrdevs
+Description: Information & Technology HTML Template
+Version: 3.0
+*/
+
+// BASIC
+@import 'basic';
+
+// variables
+@import 'variables';
+
+//FONT
+@import './fonts';
+
+// TYPOGRAPHY
+
+@import 'typography';
+
+// MIX
+@import 'mix';
+
+// HELPER
+@import 'helper';
+
+// ICON FONTS
+@import 'icon';
+
+// ANIMATION
+@import 'animation';
+
+// Button 
+@import 'btn';
+
+// Colors 
+@import 'colors';
+
+// Preloader 
+@import 'preloader';
+
+// footer - Section
+@import 'nice-select';
+
+/* ----------------------------------
+    Template Section Styles
+ ------------------------------------*/
+
+// Menu - Header Section 
+@import 'header';
+
+// Hero Slide - Section 
+@import 'hero';
+
+// Section Title - Heading 
+@import 'section';
+
+// About - Section 
+@import 'about';
+
+// Features - Section 
+@import 'features';
+
+// Features - Section 
+@import 'services';
+
+// Features - Section 
+@import 'testimonial';
+
+// Portfolio - Cases - Section 
+@import 'project';
+
+// Price Table - Section 
+@import 'price';
+
+// Call To Action - Section 
+@import 'cta';
+
+// Content Block - Section 
+@import 'contentblock';
+
+// team - Section 
+@import 'team';
+
+// funfact - Section 
+@import 'funfact';
+
+// Carousel - Section 
+@import 'carousel';
+
+// FAQ - Section 
+@import 'faq';
+
+// solution-business - Section
+@import 'solution-business';
+
+// our-success - Section
+@import 'our-success';
+
+// Blog - Section 
+@import 'blog';
+
+// Contact Us - Section 
+@import 'contact';
+
+// techex-landing-page - Page 
+@import 'techex-landing-page';
+
+//Dark Mode
+@import 'darkmode';
+
+// footer - Section 
+@import 'footer';

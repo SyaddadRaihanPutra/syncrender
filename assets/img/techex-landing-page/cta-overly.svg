@@ -1,0 +1,47 @@
+<svg width="1362" height="210" viewBox="0 0 1362 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<style>
+	    @-webkit-keyframes scale {
+	      from { -webkit-transform: scale(1) translate(0,  0px); transform: scale(1) translate(0,  0px); }
+	      65%  { -webkit-transform: scale(0.9) translate(0,  -15px); transform: scale(0.9) translate(0,  -15px); }
+	      to   { -webkit-transform: scale1) translate(0,  0px); transform: scale1) translate(0,  0px); }    
+	  	}
+
+	    @-webkit-keyframes floating-right {
+	      from { -webkit-transform: translate(0,  0px); transform: translate(0,  0px); }
+	      65%  { -webkit-transform: translate(-15px, 0px); transform: translate(-15px, 0px); }
+	      to   { -webkit-transform: translate(0, 0px); transform: translate(0, 0px); }    
+	  	}
+
+	    @-webkit-keyframes floating-up {
+	      from { -webkit-transform: translate(0,  0px); transform: translate(0,  0px); }
+	      65%  { -webkit-transform: translate(0, 15px); transform: translate(0, 15px); }
+	      to   { -webkit-transform: translate(0, 0px); transform: translate(0, 0px); }    
+	  	}
+
+ 	#trivuj-1 {
+	    animation-duration: 3s; 
+	    animation-name: floating-right; 
+	    animation-iteration-count: infinite; 
+	    animation-timing-function: ease-in-out;
+	  }
+
+	  #trivuj {
+	    animation-duration: 3s; 
+	    animation-name: floating-up; 
+	    animation-iteration-count: infinite; 
+	    animation-timing-function: ease-in-out;
+	  }
+
+	  #circle {
+	  	animation-delay: 1s;
+	    animation-duration: 3s; 
+	    animation-name: scale; 
+	    animation-iteration-count: infinite; 
+	    animation-timing-function: ease-in-out;
+	  }
+
+  </style>
+<path id="trivuj" fill-rule="evenodd" clip-rule="evenodd" d="M24.3772 192.63C24.9066 193.189 25.8425 192.965 26.0618 192.227L33.9553 165.663C34.1746 164.925 33.5128 164.226 32.7641 164.405L5.81152 170.852C5.06284 171.031 4.78875 171.953 5.31817 172.512L24.3772 192.63ZM11.7956 173.533L23.7075 186.107L28.641 169.504L11.7956 173.533Z" fill="white"/>
+<path id="trivuj-1" fill-rule="evenodd" clip-rule="evenodd" d="M1357.41 8.68319L1347.64 11.0197L1354.55 18.3117L1357.41 8.68319ZM1343.58 8.90781C1342.83 9.08687 1342.56 10.0093 1343.08 10.5681L1354.76 22.8897C1355.29 23.4486 1356.22 23.2248 1356.44 22.4869L1361.28 6.21709C1361.5 5.47917 1360.83 4.78061 1360.09 4.95968L1343.58 8.90781Z" fill="white"/>
+<path id="circle" fill-rule="evenodd" clip-rule="evenodd" d="M815.5 200C817.433 200 819 198.433 819 196.5C819 194.567 817.433 193 815.5 193C813.567 193 812 194.567 812 196.5C812 198.433 813.567 200 815.5 200ZM815.5 204C819.642 204 823 200.642 823 196.5C823 192.358 819.642 189 815.5 189C811.358 189 808 192.358 808 196.5C808 200.642 811.358 204 815.5 204Z" fill="white"/>
+</svg>

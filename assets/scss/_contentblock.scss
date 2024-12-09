@@ -1,0 +1,212 @@
+.promo-featured-wrapper {
+
+    .featured-img {
+        height: 556px;
+        background-color: #eee;
+        position: relative;
+        margin-left: 60px;
+        background-size: cover;
+        background-position: center;
+        margin-right: 60px;
+    }
+
+    .top-img {
+        width: 180px;
+        height: 180px;
+        background-color: #eee;
+        left: -60px;
+        top: -40px;
+        position: absolute;
+        box-shadow: 0px 16px 32px 0px rgba(52, 52, 52, 0.04);
+    }
+
+    .bottom-img {
+        border-style: solid;
+        border-width: 10px;
+        border-color: rgb(255, 255, 255);
+        box-shadow: 0px 16px 32px 0px rgba(52, 52, 52, 0.04);
+        background-color: #eee;
+        position: absolute;
+        width: 269px;
+        height: 269px;
+        right: -60px;
+        bottom: -60px;
+    }
+}
+
+.features-list {
+    .single-item { 
+        overflow: hidden;
+        margin-top: 40px;
+
+        .icon { 
+            background-color: #fff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            overflow: hidden;
+            margin-right: 40px;
+        }
+    
+        .content {
+            overflow: hidden;
+    
+            p { 
+                padding-left: 20px;
+                margin-top: 15px;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    width: 2px;
+                    height: 42px;
+                    left: 0;
+                    top: 50%;
+                    content: "";
+                    transform: translateY(-50%);
+                    background: $theme-color-2;
+                }
+            }
+        }
+    }
+}
+
+.video_bg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.call-consultation {
+    display: flex;
+    align-items: center;
+
+    .icon {
+        float: left;
+        border-radius: 50%;
+        background-color: $theme-color;
+        width: 60px;
+        height: 60px;
+        line-height: 64px;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        color: #fff;
+        margin-right: 20px;
+    }
+
+    .content {
+        overflow: auto;
+
+        span {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1;
+        }
+
+        h5 {
+            margin-top: -2px;
+        }
+    }
+}
+
+.consultations-wrapper {
+    background-color: #eef4fc;
+    background-position: 20px 30px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 130px;
+        bottom: 0;
+        left: 0;
+        content: "";
+        background-color: #fff;
+        z-index: -1;
+
+        @media (max-width: 991px) {
+            height: 100px;
+        }
+
+        @media (max-width: 767px) {
+            height: 80px;
+        }
+    }
+}
+
+.single-work-process { 
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px 25px;
+
+	.icon { 
+        width: 172px;
+        height: 172px;
+        line-height: 172px;
+        text-align: center;
+        position: relative;
+        color: $theme-color;
+        font-size: 70px;
+        margin: 0 auto;
+
+        &::before {
+            -webkit-clip-path: polygon(27% 0, 100% 0, 100% 82%, 79% 100%, 0 100%, 0 19%);
+            clip-path: polygon(27% 0, 100% 0, 100% 82%, 79% 100%, 0 100%, 0 19%);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            background-color: #eef5fc;
+            z-index: -1;
+            transform: rotate(25deg);
+        }
+
+		span { 
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 16px;
+            line-height: 40px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            background-color: $theme-color;
+            border-radius: 50%;
+            color: #fff;
+            display: inline-block;
+		}
+	}
+
+	.content { 
+        margin-top: 40px;
+
+		h3 { 
+            margin-bottom: 10px;
+		}
+
+		p { 
+
+		}
+	}
+}
+
+.work-link {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    z-index: -1;
+}

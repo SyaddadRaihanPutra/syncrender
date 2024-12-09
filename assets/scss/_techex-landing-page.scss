@@ -1,0 +1,1461 @@
+.content-area {
+    overflow: hidden;
+}
+
+.blog-section.techex-landing-page {
+    padding: 120px 0;
+    background: #FAFAFF;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 90px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 70px 0;
+    }
+
+    @media (max-width: 480px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:before {
+            top: -218px;
+            left: -385px;
+            width: 519px;
+            content: "";
+            height: 519px;
+            position: absolute;
+            background: no-repeat;
+            background-image: url('../img/techex-landing-page/blog_bg1.png');
+
+            animation-duration: 3s; 
+            animation-name: scale5; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+
+            @media (max-width: 1366px) {
+            top: -180px;
+            left: -350px;
+            }
+
+            @media (max-width: 1199px) {
+            top: -150px;
+            }
+
+            @media (max-width: 767px) {
+            top: -100px;
+            }
+
+            @media (max-width: 480px) {
+            top: -50px;
+            }
+        }
+    }
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+    
+}
+.blog-wrapper{
+    background-color: #FAFAFF;
+}
+.our-team-wrapper.techex-landing-page {
+    padding: 120px 0;
+    position: relative;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:after {
+            top: -180px;
+            width: 123px;
+            z-index: 1;
+            content: "";
+            right: -250px;
+            height: 187px;
+            position: absolute;
+            background-image: url(../img/techex-landing-page/our-team-bg-dot.png);
+
+            animation-duration: 3s; 
+            animation-name: movebounce; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+        }
+
+        &:before {
+            top: 64px;
+            left: -57px;
+            width: 1192px;
+            content: "";
+            height: 701px;
+            position: absolute;
+            background: no-repeat;
+            background-image: url('../img/techex-landing-page/our-team-bg.png');
+        }
+    } 
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title {
+        max-width: 420px;
+        margin: 0 auto 20px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+.our-service-provide.techex-landing-page {
+    padding: 120px 0;
+    overflow: hidden;
+    position: relative;
+    background: #FAFAFF;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:before {
+            top: 71px;
+            width: 386px;
+            content: "";
+            left: -156px;
+            height: 386px;
+            position: absolute;
+            background: no-repeat;
+            background-size: cover;
+            background-image: url('../img/techex-landing-page/blog_bg1.png');
+
+            animation-duration: 3s; 
+            animation-name: scale5; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+        }
+    }
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title {
+        max-width: 480px;
+        margin: 0 auto 20px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+.we-provide-solutions {
+    background: #FAFAFF;
+    padding: 100px 0 120px;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title {
+        max-width: 770px;
+        margin: 0 auto 20px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+.single-provide-solutions {
+    z-index: 1;
+    margin-top: 30px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    @include transition(.3s);
+    background-repeat: no-repeat;
+    background-color: $section-bg-2;
+    background-position: bottom right;
+
+    &:after {
+        top: 0;
+        left: 0;
+        height: 0%;
+        width: 100%;
+        z-index: -1;
+        content: "";
+        position: absolute;
+        @include transition(.3s);
+        background: $theme-color;
+    }
+
+    &:hover { 
+
+        &:after {
+            height: 100%;
+        }
+        
+        .content {
+
+            h3, p, .read-more {
+                color: $white;
+            }
+
+            p {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .number {
+        top: -14px;
+        left: -10px;
+        display: block;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        position: absolute;
+        color: rgba(33, 30, 59, 0.05);
+
+        @media (max-width: 767px) {
+            font-size: 80px;
+            line-height: 80px;
+        }
+    }
+
+    .content {
+        padding: 72px 29px 58px;
+
+        @media (max-width: 767px) {
+            padding: 60px 20px 30px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            @include transition(.3s);
+
+            @media (max-width: 767px) {
+                margin-bottom: 5px;
+            }
+        }
+
+        p {
+            color: $textcolor;
+            @include transition(.3s);
+        }
+
+        .read-more {
+            display: block;
+            font-size: 14px;
+            margin-top: 30px;
+            font-weight: 500;
+            line-height: 18px;
+            color: $theme-color;
+            @include transition(.3s);
+
+            @media (max-width: 767px) {
+                margin-top: 15px;
+            }
+
+            i {
+                font-size: 12px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.client-brand-logo-wrap.techex-landing-page {
+    padding: 120px 0;
+    background: #fafaff;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .brand-carousel-active {
+        border: 0;
+    }
+}
+
+.project-case-study-wrapper.techex-landing-page {
+    padding: 120px 0;
+    overflow: hidden;
+    background: #FAFAFF;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .project-case-study-wrapper__circle {
+
+        &:after, &:before {
+            width: 764px;
+            content: "";
+            height: 777px;
+            position: absolute;
+            background: #EEF4FC;
+            @include border-radius(500px);
+
+            animation-duration: 3s; 
+            animation-name: scale5; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+        }
+
+        &:after{
+            left: -671px;
+            bottom: -382px;
+        }
+
+        &:before{
+            right: -723px;
+            bottom: -777px;
+        }
+    }
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+    
+    .section-title {
+        max-width: 716px;
+        margin: 0 auto 50px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+.success-item {
+    z-index: 1; 
+    display: block;
+    position: relative;
+
+    &:after {
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        @include transition(.3s);
+        background: linear-gradient(180deg, rgba(8, 106, 215, 0) 0%, rgba(33, 30, 59, 0.8) 100%);
+    }
+
+    &:hover {
+
+        &:after {
+            background: linear-gradient(180deg, rgba(8, 106, 215, 0) 0%, rgba(8, 106, 215, 0.8) 100%);
+        }
+
+        .content {
+
+            .icon {
+                opacity: 1;
+                visibility: inherit;
+                @include transform(translate(0));
+            }
+        }
+    }
+
+    .thumb {
+        width: 100%;
+        height: 445px; 
+
+        @media (max-width: 1366px) {
+            height: 400px;
+        }
+
+        @media (max-width: 991px) {
+            height: 370px;
+        }
+
+        @media (max-width: 767px) {
+            height: 350px;
+        }
+
+        @media (max-width: 575px) {
+            height: 320px;
+        }
+    }
+
+    .content {
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        padding: 20px 24px;
+        position: absolute;
+
+        .text {
+
+            h3, p {
+                color: $white;
+            }
+
+            h3 {
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 18px;
+            }
+        }
+
+        .icon {
+            opacity: 0;
+            width: 35px;
+            height: 35px;
+            color: $white;
+            font-size: 10px;
+            line-height: 35px;
+            visibility: hidden;
+            text-align: center;
+            @include transition(.3s);
+            border: 1px solid $white;
+            @include border-radius(500px);
+            @include transform(translate(0, 20px));
+
+            &:hover {
+                background: $white;
+                color: $theme-color;
+            }
+        }
+    }
+
+    &__wrapper {
+        margin: auto;
+        padding: 0 15px;
+        max-width: 1522px;
+
+        .owl-dots {
+            display: block !important;
+            margin: 50px -7.5px 0 !important;
+
+            @media (max-width: 1366px) {
+                margin: 30px -5px 0 !important;
+            }
+
+            @media (max-width: 991px) {
+                margin: 20px -3px 0 !important;
+            }
+
+            .owl-dot { 
+                width: 15px;
+                height: 15px;
+                margin: 0px 7.5px;
+                line-height: 15px;
+                position: relative;
+                border-radius: 50%;
+                border: 1px solid $white;
+                border-color: transparent;
+                transition: all .3s ease-in-out;
+
+                @media (max-width: 1366px) {
+                    margin: 0 5px;
+                }
+
+                @media (max-width: 1366px) {
+                    margin: 0 3px;
+                }
+
+                &:hover, &.active {
+                    border-color: $theme-color;
+
+                    span {
+                        background-color: $theme-color;
+                    }
+                }
+        
+                span { 
+                    margin: 0;
+                    width: 9px;
+                    height: 9px;
+                    position: absolute;
+                    top: calc(50% - 4.5px);
+                    left: calc(50% - 4.5px);  
+                    transition: all .3s ease-in-out;
+                    background: rgba(8, 106, 215, 0.3);
+                }
+            }
+        }
+    }
+}
+
+.testimonial-wrapper.techex-landing-page {
+    overflow: hidden;
+    padding: 120px 0;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:after {
+            top: 164px;
+            width: 123px;
+            content: "";
+            right: -350px;
+            height: 137px;
+            position: absolute;
+            background-image: url(../img/techex-landing-page/triangle.png);
+
+            animation-duration: 3s; 
+            animation-name: movebounce; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+        }
+    }
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title { 
+        margin-bottom: 40px;
+
+        @media (max-width: 767px) {
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+            }
+        }
+    }
+
+    .testimonial-media {
+        z-index: 1;
+        position: relative;
+        margin-left: -30px;
+        margin-right: -20px;
+
+        @media (max-width: 767px) {
+            margin: 20px 0 0;
+        }
+
+        &:after { 
+            top: 44px;
+            content: "";
+            left: -71px;
+            z-index: -1;
+            width: 431px;
+            height: 431px;
+            position: absolute;
+            @include border-radius(500px);
+            background: rgba(65, 118, 255, 0.04);;
+        }
+    }
+}
+
+.testimonial-carousel-3 {
+
+    .single-testimonial {
+        max-width: 669px;
+
+        .icon {
+            font-size: 75px;
+            line-height: 75px;
+            margin-bottom: 5px;
+
+            @media (max-width: 991px) {
+                font-size: 60px;
+                margin-bottom: 0;
+                line-height: 60px;
+            }
+        }
+
+        h2 {
+            font-size: 28px;
+            line-height: 38px;
+            color: $textcolor;
+            letter-spacing: 0;
+            font-style: normal;
+
+            @media (max-width: 991px) {
+                font-size: 22px;
+                line-height: 32px;
+            }
+        }
+
+        .client-info {
+            margin-top: 15px;
+
+            @media (max-width: 991px) {
+                margin-top: 5px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                color: $textcolor;
+                position: relative;
+                padding-left: 70px;
+                font-family: 'Roboto';
+
+                &:after {
+                    left: 0;
+                    width: 60px;
+                    height: 1px;
+                    content: "";
+                    position: absolute;
+                    top: calc(50% - 1px);
+                    background: rgba(33, 30, 59, 0.3);
+                }
+
+                a {
+                    font-weight: 700;
+                    color: $second-color;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .owl-nav {
+        text-align: left;
+        margin: 30px -10px -10px !important;
+
+        @media (max-width: 991px) {
+            margin: 20px -7px -7px !important;
+        }
+
+        .owl-prev, .owl-next {
+            width: 44px;
+            margin: 10px;
+            height: 44px;
+            color: $black;
+            font-size: 7px;
+            text-align: center;
+            line-height: 34px;
+            background: transparent;
+            @include transition(.3s);
+            @include border-radius(500px);
+            border: 1px solid rgba(33, 30, 59, 0.2);
+
+            @media (max-width: 991px) {
+                margin: 7px;
+            }
+
+            &:hover {
+                background: $theme-color;
+            }
+        }
+    }
+}
+
+.about-wrapper.techex-landing-page {
+    padding: 120px 0;
+
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:after {
+            top: -180px;
+            width: 123px;
+            z-index: 1;
+            content: "";
+            right: -250px;
+            height: 187px;
+            position: absolute;
+            background-image: url(../img/techex-landing-page/our-team-bg-dot.png);
+
+            animation-duration: 3s; 
+            animation-name: movebounce; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+        }
+
+        &:before {
+            top: -17px;
+            z-index: -1;
+            content: "";
+            left: -45px;
+            width: 123px;
+            height: 135px;
+            position: absolute;
+            background-image: url(../img/techex-landing-page/our-team-bg-dot.png);
+
+            animation-delay: 1s;
+            animation-duration: 3s; 
+            animation-name: movebounce; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-in-out;
+
+            @media (max-width: 991px) {
+                left: 135px;
+            }
+
+            @media (max-width: 767px) {
+                left: 92px;
+            }
+
+            @media (max-width: 480px) {
+                left: 80px;
+            }
+
+            @media (max-width: 400px) {
+                left: 60px;
+            }
+        }
+    } 
+
+    .theme-btn-sm {
+
+        @media (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .section-title {
+
+        h1 {
+            max-width: 460px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -0.03em;
+
+            @media (max-width: 767px) {
+                line-height: 42px;
+                margin-bottom: 5px;
+            }
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 32px;  
+            color: $textcolor;
+            text-transform: capitalize;
+        }
+
+        .rate-content-grid {
+            gap: 10px;
+            margin-top: 20px;
+
+            @media (max-width: 575px) { 
+                margin-top: 10px;
+            }
+
+            .single-rate-item {
+
+                h3 {
+                    font-size: 36px;
+                    line-height: 46px;
+
+                    @media (max-width: 767px) { 
+                        font-size: 28px;
+                        line-height: 38px;
+                    }
+                }
+
+                p {
+                    @media (max-width: 767px) { 
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
+        .theme-btn {
+            z-index: 1;
+            margin-top: 20px;
+            overflow: hidden;
+            position: relative;
+            padding: 18.5px 27px;
+            background: $second-color;
+
+            @media (max-width: 991px) {
+                margin: 10px 0 0;
+            }
+
+            @media (max-width: 575px) {
+                margin: 5px 0 0;
+            }
+
+            &:before {
+                left: 0;
+                width: 0%;
+                bottom: 0;
+                content: ''; 
+                z-index: -1;
+                height: 100%;
+                overflow: hidden;
+                position: absolute; 
+                @include transition(.3s); 
+                background-color: $theme-color;
+            }
+
+            &:hover {
+                background: transparent;
+
+                &:before {
+                    width: 100%; 
+                }
+            }
+        }
+    }
+
+    .about-img {
+        position: relative;
+        margin: 0 15px 0 -175px;
+
+        @media (max-width: 991px) {
+            margin: 0 0 50px;
+        }
+
+        .video-play-btn {
+            right: 160px;
+            bottom: 15px;
+            position: absolute;
+
+            @media (max-width: 991px) {
+                right: 110px;
+                bottom: 10px;
+            }
+
+            @media (max-width: 500px) {
+                right: 98px;
+            }
+
+            @media (max-width: 450px) {
+                right: 86px;
+            }
+
+            @media (max-width: 400px) {
+                right: 70px;
+                bottom: 5px;
+            }
+
+            @media (max-width: 350px) {
+                right: 60px;
+                bottom: 0px;
+            }
+
+            .popup-video {
+                width: 75px;
+                height: 75px;
+                line-height: 78px;
+                animation-name: playVideo1;
+                background-color: $theme-color;
+
+                @media (max-width: 767px) {
+                    width: 60px;
+                    height: 60px;
+                    line-height: 62px;
+                }
+
+                @media (max-width: 450px) {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 48px;
+                }
+
+                i {
+                    color: $white;
+                    font-size: 20px;
+
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-slide-wrapper.techex-landing-page {
+    position: relative;
+
+    .single-slide {
+        z-index: 1;
+        padding: 202.5px 0;
+        position: relative;
+
+        @media (max-width: 1366px) {
+            padding: 170px 0;
+        }
+
+        @media (max-width: 1199px) {
+            padding: 150px 0;
+        }
+
+        @media (max-width: 991px) {
+            padding: 110px 0;
+        }
+
+        @media (max-width: 767px) {
+            padding: 90px 0 100px;
+        }
+
+        @media (max-width: 575px) {
+            padding: 60px 0 80px;
+        }
+
+        &:after {
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            content: "";
+            height: 100%;
+            position: absolute;
+            background: rgba(21, 7, 137, 0.75);
+        }
+
+        .hero-contents {
+            margin: auto;
+            max-width: 761px;
+
+            @media (max-width: 991px) {
+                max-width: 580px;
+            }
+
+            @media (max-width: 767px) {
+                max-width: 450px;
+            }
+
+            .theme-btn-sm {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 8px 18px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                @media (max-width: 1366px) {
+                    margin-bottom: 10px;
+                }
+
+                @media (max-width: 1199px) {
+                    margin-bottom: 5px;
+                }
+
+                @media (max-width: 575px) {
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding: 7px 13px;
+                }
+            }
+
+            h1 { 
+                color: #F5F5F5;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 80px;
+                margin-bottom: 15px;
+                letter-spacing: -0.03em;
+
+                @media (max-width: 1366px) {
+                    font-size: 55px;
+                    line-height: 65px;
+                    margin-bottom: 10px;
+                }
+
+                @media (max-width: 1199px) {
+                    font-size: 45px;
+                    line-height: 55px;
+                    margin-bottom: 5px;
+                }
+
+                @media (max-width: 991px) {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
+            }
+
+            p {
+                color: $white;
+                max-width: 740px;
+            }
+
+            .btn__wrapper {
+                gap: 30px;
+                margin-top: 40px;
+
+                @media (max-width: 1366px) {
+                    gap: 25px;
+                    margin-top: 30px;
+                }
+
+                @media (max-width: 1199px) {
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+
+                .theme-btn {
+                    z-index: 1;
+                    font-weight: 500;
+                    overflow: hidden;
+                    position: relative;
+                    border-color: $theme-color;
+                    @include border-radius(4px);
+                    padding: 19px 27px 19px 30px;
+
+                    @media (max-width: 1199px) {
+                        padding: 16px 25px;
+                    }
+
+                    @media (max-width: 991px) {
+                        font-size: 13px;
+                        line-height: 13px;
+                        padding: 14px 22px;
+                    }
+
+                    &:before {
+                        left: 0;
+                        width: 0%;
+                        bottom: 0;
+                        content: '';
+                        opacity: 0;
+                        z-index: -1;
+                        height: 100%;
+                        overflow: hidden;
+                        position: absolute;
+                        visibility: hidden;
+                        @include transition(.3s);
+                        background-color: $black;
+                        @include border-radius(4px);
+                    }
+
+                    &:last-child {
+                        background: transparent;
+                        border: 1px solid $white;
+
+                        &:before {
+                            background-color: $white;
+                        }
+
+                        &:hover {
+                            color: $theme-color;
+                            border-color: $white;
+                        }
+                    }
+
+                    &:hover {
+                        border-color: $black;
+                        background: transparent;
+
+                        &:before {
+                            opacity: 1;
+                            width: 100%;
+                            visibility: visible;
+                        }
+                    }
+
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .owl-nav {
+        width: 100%;
+        position: absolute;
+        top: calc(50% -  25px);
+
+        @media (max-width: 575px) {
+            display: none;
+        }
+
+        .owl-prev, .owl-next {
+            width: 50px;
+            height: 50px;
+            color: $white;
+            font-size: 12px;
+            line-height: 41px;
+            text-align: center;
+            position: absolute;
+            background: transparent;
+            @include transition(.3s);
+            border: 1px solid $white;
+            @include border-radius(500px);
+
+            @media (max-width: 1199px) {
+                width: 40px;
+                height: 40px;
+                font-size: 10px;
+                line-height: 33px;
+            }
+
+            &:hover {
+                background: $theme-color;
+                border-color: $theme-color;
+            }
+        }
+
+        .owl-prev {
+            left: 80px;
+
+            @media (max-width: 1366px) {
+                left: 50px;
+            }
+
+            @media (max-width: 1199px) {
+                left: 25px;
+            }
+
+            @media (max-width: 991px) {
+                left: 15px;
+            }
+
+            @media (max-width: 767px) {
+                left: 7px;
+            }
+        }
+
+        .owl-next {
+            right: 80px;
+
+            @media (max-width: 1366px) {
+                right: 50px;
+            }
+
+            @media (max-width: 1199px) {
+                right: 25px;
+            }
+
+            @media (max-width: 991px) {
+                right: 15px;
+            }
+
+            @media (max-width: 767px) {
+                right: 7px;
+            }
+        }
+    }
+
+    .owl-dots {
+        width: 100%;
+        bottom: 50px;
+        position: absolute;
+        display: block !important;
+        margin: -7.5px !important;
+
+        @media (max-width: 1199px) {
+            bottom: 40px;
+        }
+
+        @media (max-width: 991px) {
+            bottom: 30px;
+        }
+
+        @media (max-width: 767px) {
+            bottom: 20px;
+        }
+
+        @media (max-width: 1366px) {
+            margin: 30px -5px 0 !important;
+        }
+
+        @media (max-width: 991px) {
+            margin: 20px -3px 0 !important;
+        }
+
+        .owl-dot { 
+            width: 15px;
+            height: 15px;
+            margin: 0px 7.5px;
+            line-height: 15px;
+            position: relative;
+            border-radius: 50%;
+            border: 1px solid $white;
+            border-color: transparent;
+            transition: all .3s ease-in-out;
+
+            @media (max-width: 1366px) {
+                margin: 0 5px;
+            }
+
+            @media (max-width: 1366px) {
+                margin: 0 3px;
+            }
+
+            span {
+                background-color: $white !important;
+            }
+
+            &:hover, &.active {
+                border-color: $white;
+
+                span {
+                    background-color: $theme-color !important;
+                }
+            }
+    
+            span { 
+                margin: 0;
+                width: 9px;
+                height: 9px;
+                position: absolute;
+                top: calc(50% - 4.5px);
+                left: calc(50% - 4.5px);  
+                transition: all .3s ease-in-out;
+                background: rgba(8, 106, 215, 0.3);
+            }
+        }
+    }
+}

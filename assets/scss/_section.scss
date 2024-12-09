@@ -1,0 +1,344 @@
+.section-title { 
+    position: relative;
+    z-index: 1;
+
+    span {
+        position: absolute;
+        font-weight: 900;
+        font-size: 120px;
+        line-height: 1;
+        color: $second-color;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: .05;
+        z-index: -1;
+        top: -40px;
+        text-transform: uppercase;
+        margin: 0px auto;
+
+        @media (max-width: 991px) {
+            font-size: 90px;
+            top: -30px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 80px;
+            top: -20px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 60px;
+        }
+    }
+
+    p {
+        color: $theme-color;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        line-height: 50px;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+    &.section__title_3{
+        @media (max-width:500px) {
+            text-align: center !important;
+        }
+        h6{
+            img{
+                margin-right: 15px;
+            }
+            font-family: $body-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-family: $text-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 50px;
+            text-transform: capitalize;
+            color: $section-bg;
+            @media (max-width:768px) {
+                font-size: 32px ;
+                line-height: 40px;
+            }
+        }
+    }
+
+}
+.section__title_4{
+    h6{
+        background: linear-gradient(90deg, #FA5156 0%, #632AAC 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin-bottom: 30px;
+        @media (max-width:768px) {
+            margin-bottom: 15px;
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+    h2{
+        font-family: $text-font_7;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        color: $primary-2;
+        @media (max-width:768px) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        @media (max-width:568px) {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        span{
+            @media (max-width:768px) {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            @media (max-width:568px) {
+                font-size: 35px;
+                line-height: 45px;
+            }
+            position: relative !important;
+            font-size: 42px;
+            line-height: 50px;
+            background: linear-gradient(90deg, #E54C62 75.47%, #642AAB 96.12%);
+            font-weight: 700;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+}
+.section-title-2 {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40px;
+
+    span { 
+        font-size: 180px;
+        line-height: 1;
+        color: rgba(0, 22, 89, 0);
+        font-weight: 600;
+        -webkit-text-stroke: 1px #efefef;
+        position: absolute;
+        top: -38%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: .9;
+        z-index: -1;
+    }
+    
+    p { 
+        color: $theme-color-2;
+    }
+    
+    h1 { 
+        color: $second-color;
+    }
+
+    .icon {
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.08);
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        margin-bottom: 50px;
+
+        &::before {
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            border-color: #eaeaea;
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: all .3s ease-in-out;
+            z-index: -1;
+        }
+    }
+}
+
+.section-title-3 {
+    position: relative;
+    z-index: 2;
+    
+    &.color-white {
+        a, h1, h2, h3, h4, h5, h6, p {
+            color: $white;
+        }
+    }
+    
+    &.description-two-style {
+        
+        &.color-white {
+            p {
+                color: $white;
+            }
+        }
+        
+        p {
+            color: $textcolor;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 450;
+            line-height: 32px;
+        }
+    }
+    
+    ul {
+        
+        li {
+            color: $second-color;
+            font-size: 18px;
+            font-style: normal;
+            padding-left: 28px;
+            font-weight: 450;
+            line-height: 32px; /* 177.778% */
+            position: relative;
+            z-index: 1;
+            
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            
+            &::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "\f058";
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 700;
+                font-size: 18px;
+                color: $theme-color;
+            }
+        }
+    }
+    
+    p {
+        color: $theme-color;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+    }
+    
+    h6 {
+        color: $theme-color;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+    }
+    
+    h1 {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 74px;
+        
+        
+    }
+    
+    h2 {
+        color: $second-color;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -0.96px;
+    }
+}
+
+// Section Padding - Change with your need.
+.section-padding {
+    padding: 130px 0px;
+
+    @media (max-width: 991px) {
+        padding: 100px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 80px 0px;
+    }
+}
+
+.section-bottom {
+   padding-bottom: 120px;
+
+    @media (max-width: 991px) {
+        padding-bottom: 100px;
+    }
+
+    @media (max-width: 767px) {
+        padding-bottom: 80px;
+    }
+}
+.section-padding-3 {
+    padding: 120px 0px;
+
+    @media (max-width: 991px) {
+        padding: 100px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px;
+    }
+}
+
+.section-padding-two {
+    padding: 140px 0px;
+
+    @media (max-width: 1400px) {
+        padding: 120px 0px;
+    }
+
+    @media (max-width: 991px) {
+        padding: 100px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 80px 0px;
+    }
+}
+
+.section-bg {
+    background-color: $section-bg;
+}
+.section-bg-2 {
+    background-color: $section-bg-2;
+}
+
+.theme-bg {
+    background-color: $theme-color;
+}

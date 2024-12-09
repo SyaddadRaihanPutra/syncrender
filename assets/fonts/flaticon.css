@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?981789d1bcb9da89ed2289dbea268937") format("truetype"),
+url("./flaticon.woff?981789d1bcb9da89ed2289dbea268937") format("woff"),
+url("./flaticon.woff2?981789d1bcb9da89ed2289dbea268937") format("woff2"),
+url("./flaticon.eot?981789d1bcb9da89ed2289dbea268937#iefix") format("embedded-opentype"),
+url("./flaticon.svg?981789d1bcb9da89ed2289dbea268937#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-speech-bubble:before {
+    content: "\f101";
+}
+.flaticon-mobile-app:before {
+    content: "\f102";
+}
+.flaticon-payment:before {
+    content: "\f103";
+}
+.flaticon-unlock:before {
+    content: "\f104";
+}
+.flaticon-mobile-phone:before {
+    content: "\f105";
+}
+.flaticon-joystick:before {
+    content: "\f106";
+}
+.flaticon-quotation:before {
+    content: "\f107";
+}
+.flaticon-right-quote:before {
+    content: "\f108";
+}
+.flaticon-monitor:before {
+    content: "\f109";
+}
+.flaticon-pyramid:before {
+    content: "\f10a";
+}
+.flaticon-diagram:before {
+    content: "\f10b";
+}
+.flaticon-diagram-1:before {
+    content: "\f10c";
+}
+.flaticon-hierarchy:before {
+    content: "\f10d";
+}
+.flaticon-meeting:before {
+    content: "\f10e";
+}
+.flaticon-stats:before {
+    content: "\f10f";
+}
+.flaticon-user:before {
+    content: "\f110";
+}
+.flaticon-tool:before {
+    content: "\f111";
+}
+.flaticon-video:before {
+    content: "\f112";
+}
+.flaticon-phone-call:before {
+    content: "\f101";
+}

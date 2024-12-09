@@ -1,0 +1,89 @@
+<svg width="591" height="361" viewBox="0 0 591 361" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    @keyframes pulse {
+        0% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(2);
+          transform: scale(2);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      } 
+
+      <!-- @keyframes rotate {  
+        from { 
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); 
+        } 
+
+        to { 
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }  
+      }  -->
+
+    <!-- #path1,#path2,#path3{
+        animation: rotate 5s ease-in infinite;
+      -webkit-animation: rotate 5s ease-in infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    } -->
+    #path4,#path5,#path1,#path2,#path3{
+        animation: pulse 5s ease-in-out infinite;
+      -webkit-animation: pulse 5s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+    #path1 {
+      animation-delay: 1s;
+    }
+
+    #path3,#path4 {
+      animation-delay: 1.5s;
+    }
+
+    #path2 {
+      animation-delay: 1.5s;
+    }
+
+    #path5 {
+      animation-delay: 1.8s;
+    }
+
+</style>
+
+
+
+<circle id="path1" cx="5.38923" cy="5.38923" r="5.38923" fill="url(#paint0_radial_954_7879)"/>
+<circle id="path2" cx="157.761" cy="287.761" r="8.76136" fill="url(#paint1_radial_954_7879)"/>
+<circle id="path3" cx="400.022" cy="230.022" r="12.0221" fill="url(#paint2_radial_954_7879)"/>
+<circle id="path4" cx="464.523" cy="73.5227" r="17.5227" fill="url(#paint3_radial_954_7879)"/>
+<circle id="path5" cx="565" cy="335" r="26" fill="url(#paint4_radial_954_7879)" fill-opacity="0.2"/>
+
+<defs>
+    <radialGradient id="paint0_radial_954_7879" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.69461 7.33534) rotate(-37.7939) scale(9.28265)">
+        <stop stop-color="#CC640E"/>
+        <stop offset="1" stop-color="#FF9D4D"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial_954_7879" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(153.381 290.925) rotate(-37.7939) scale(15.091)">
+        <stop stop-color="#2B2CFF"/>
+        <stop offset="1" stop-color="#A7A3D4"/>
+    </radialGradient>
+    <radialGradient id="paint2_radial_954_7879" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(394.011 234.363) rotate(-37.7939) scale(20.7075)">
+        <stop stop-color="#D9AC3E"/>
+        <stop offset="1" stop-color="#FFEE50"/>
+    </radialGradient>
+    <radialGradient id="paint3_radial_954_7879" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(455.761 79.8504) rotate(-37.7939) scale(30.1819)">
+        <stop stop-color="#2B2CFF"/>
+        <stop offset="1" stop-color="#B0B0FF"/>
+    </radialGradient>
+    <radialGradient id="paint4_radial_954_7879" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(552 344.389) rotate(-37.7939) scale(44.7836)">
+        <stop stop-color="#7F80FF"/>
+        <stop offset="1" stop-color="#5050FD"/>
+    </radialGradient>
+</defs>
+</svg>

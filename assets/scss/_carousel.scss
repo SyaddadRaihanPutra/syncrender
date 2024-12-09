@@ -1,0 +1,89 @@
+.brand-carousel-active {
+    border-top: 1px solid #e8e8eb;
+}
+
+.client-brand-wrap {
+    .single-client {
+        img {
+            filter: brightness(10);
+        }
+    }
+}
+
+.agent__wrapper{
+    position: relative;
+    .owl-nav{
+        .owl-prev,.owl-next{
+            @media (max-width:500px) {
+                display: none;
+            }
+            position: absolute;
+            top: -30%;
+            right: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #086AD7;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            z-index: 5;
+            i{
+                color: #086AD7;
+            }
+            
+            &::after{
+                @include transition(0.4s);
+                z-index:-1;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                content: '';
+                clear: both;
+                background-color: #086AD7;
+                visibility: hidden;
+                opacity: 0;
+            }
+
+            &:hover{
+                i{
+                    color: $white;
+                }
+                &::after{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .owl-next{
+            right: 7%;
+            @media (max-width:995px) {
+                right: 15%;
+            }
+        }
+    }
+}
+
+.testimonial_widget{
+    .owl-nav{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .icon-arrow-left,.icon-arrow-right{
+            background: linear-gradient(90deg, #E54C62 75.47%, #642AAB 96.12%);
+            font-weight: 900;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+
+}

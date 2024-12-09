@@ -1,0 +1,696 @@
+/* ----------------------------------
+	Dark Mode Style Scss
+ ------------------------------------ */
+
+.body-wrapper{
+
+    &.dark-1{
+        
+        .cta-banner-5 {
+            .theme-btn {
+                &:hover {
+                    background-color: transparent;
+                    border-color: $white;
+                }
+            }
+        }
+        
+        &.body_8 {
+            
+            .theme-btn.style-2 {
+                &:hover {
+                    border-color: $theme-dark;
+                }
+            }
+            
+            .testimonial-wrapper-2 .owl-dots .owl-dot {
+                background: $white;
+                
+                &.active {
+                    background: $theme-color;
+                }
+            }
+            
+            .footer__link {
+                a {
+                    color: $white;
+                }
+            }
+            
+            .footer__logo {
+                display:none !important;
+                
+                &.logo-2 {
+                    display: block !important;
+                }
+            }
+            
+            .footer__widget-title {
+                h5 {
+                    color:$white !important;
+                }
+            }
+            
+            .footer__top {
+                border-color: $white !important;
+                
+                &-widget-item {
+                    
+                    &.read-more {
+                        color: $white !important;
+                        
+                        svg path[stroke="#211E3B"] {
+                            stroke: $white !important;
+                        }
+                        
+                        &:hover {
+                            color: $theme-color !important;
+                            
+                            svg path[stroke="#211E3B"] {
+                                stroke: $theme-color !important;
+                            }
+                        }
+                    }
+                    h4 {
+                        color: $white !important;
+                    }
+                }
+            }
+            
+            .single-testimonial-2 {
+            
+                p {
+                    color: $textcolor !important;
+                }
+            }
+            
+            .theme-btn {
+                &:hover {
+                    background-color: $theme-dark;
+                }
+            }
+            
+            .single-member-card.style-3 {
+                .member-bio {
+                    p {
+                        color: $textcolor !important;
+                    }
+                }
+            }
+            
+            .single-rate-item {
+                background-color: $second-color !important;
+                
+                h3 {
+                    color: $white !important;
+                }
+            }
+            
+            h1, h2 {
+                color: $white !important;
+            }
+            
+            p {
+                color: $white !important;
+            }
+            
+            ul li {
+                color: $white !important;
+            }
+            
+            .service-element {
+                
+                &:hover {
+                    
+                    p {
+                        color: $white !important;
+                    }
+                }
+                
+                p {
+                    color: $textcolor !important;
+                }
+            }
+        }
+        // home 1
+        background: $black;
+        //header 1
+        .header-1 {
+            &.sticky {
+                .logo{
+                    display: block !important;
+                }
+                .logo-2{
+                    display: none !important;
+                }
+            }
+        }
+        //header h2
+        .header-2{
+            .header-right-cta{
+                color: $white !important;
+                a{
+                    color: $white !important;
+                }
+                .lan-select{
+                    select{
+                        color: $white !important;
+                    }
+                }
+            }
+            
+            .top-header {
+                background-color: $black !important;
+                
+                 .nice-select .current, .nice-select:after {
+                     color: $white !important;
+                 }
+            }
+        }
+        .header-3{
+            .top-header{
+                background: $black;
+                color: $white;
+            }
+            .single-menu-box{
+                .icon{
+                    i{
+                        color: $white;
+                    }
+                }
+                .content{
+                    h3{
+                        color: $white;
+                    }
+                    span{
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .header-5{
+            .main-header-wraper{
+                background-color: $black;
+                border: none !important;
+                ul{
+                    >li{
+                        .sub-menu{
+                            >li{
+                                a{
+                                    color: $black !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .header-search{
+                 a{
+                    span{
+                        color: $white !important;
+                    }
+                 }   
+            }
+
+            .theme-btn {
+                &:hover {
+                    background-color: transparent;
+                    border-color: $white;
+                }
+            }
+            
+        }
+        .header-6{
+            .main-header-wraper{
+                ul{
+                    >li{
+                        .sub-menu{
+                            >li{
+                                a{
+                                    color: $black !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header-8 {
+        
+            &.sticky {
+                background-color:$second-color;
+            }
+        }
+        .stop {
+            .main-header-wraper{
+                background: $black !important;
+                border: none !important;
+            }
+        }
+        .logo{
+            display: none !important;
+        }
+        .logo-2{
+            display: block !important;
+        }
+
+        .features-2{
+            background: $black !important;
+        }
+
+        .main-menu{
+            ul{
+                >li{
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .we-provide-solutions,.client-brand-logo-wrap,.project-case-study-wrapper,.blog-section,.cta-wrapper,.hero-4 .single-slide,.our-service-provide,.our-service-wrapper,.cta-banner{
+            background-color: $black !important;
+        }
+
+        .hero-1{
+            .hero-contents{
+                h2,h1,p,a{
+                    color: $white !important;
+                }
+            }
+        }
+        .hero-6{
+            .banner-content{
+                h2{
+                    color: $white !important;
+                }
+                span{
+                    -webkit-text-stroke: 1px rgba(253, 253, 254, 0.675);
+                }
+            }
+        }
+        .hero-8 {
+            background: $black !important;
+            
+            .bg-shape {
+                display: none !important;
+                &.d-none {
+                    display: block !important;
+                }
+            }
+        }
+        
+        .solution-business, .service_wrapper, .our-team-wrapper-2, .testimonial-wrapper-2, .blog-8 {
+            background: $black !important;
+        }
+
+        .blog-section{
+            h3{
+                a{
+                    color: $black !important;
+                }
+            }
+            .post-author{
+                a{
+                    color: $white !important;
+                }
+            }
+            h3{
+                color: $white !important;
+            }
+        }
+        .contact_form__wrapper{
+            .contact__element{
+                .section__title_3{
+                    h6,h2,p{
+                        color: $black !important;
+                    }
+                }
+            }
+            .contact__detels{
+                h2,h4{
+                    color: $white !important;
+                }
+            }
+        }
+        .service__wrapper{
+            .support{
+                position: relative !important; 
+                top: none;
+                right: none;
+            }
+            .single-skill-bar{
+                h4,span{
+                    color: $white !important;
+                }
+            }
+        }
+        .analytics-wrapper,.agent__wrapper{
+            background-image: none !important;
+            background: #000;
+        }
+        .prosess-element{
+            h4{
+                color: $white !important;
+            }
+        }
+        .project-carousel-wrapper{
+            &::after{
+                display: none !important;
+            }
+        }
+
+        .section-title { 
+            span {
+                color: $white !important;
+            }
+        
+            p {
+                color: $white !important;
+            }
+        
+            h1 {
+                color: $white !important;
+            }
+            &.section__title_3{
+                h2,h6{
+                    color: $white !important;
+                }
+            }
+            a{
+
+            }
+        }
+
+        .our-team-wrapper{
+            .off-white{
+                border: 1px solid #efeff1;
+                &:hover{
+                    border: 1px solid #efeff1 !important;
+                }
+            }
+            &.section-bg-2{
+                background: $black;
+                .theme-btn{
+                    border: 1px solid $second-color;
+                    &:hover{
+                        border: 1px solid $white;
+                    }
+                }
+            }
+        }
+
+        .about-us-wrapper{
+            .content{
+                h3{
+                    color: $white !important;
+                }
+            }
+            &.dark{
+                .checked-list{
+                    >li{
+                        color: #696969;
+                        &::before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "\f058";
+                            font-family: "Font Awesome 5 Pro";
+                            font-weight: 700;
+                            font-size: 25px;
+                            color: #696969;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-wrapper{
+            h2{
+                color: $white !important;
+            }
+            .icon-box-item{
+                .icon{
+                    i{
+                        color: $white !important;
+                    }
+                }
+                h4{
+                    a{
+                        color: $white !important;
+                    }
+                }
+            }
+            .single-rate-item {
+                h3{
+                    color: $white;
+                }
+            }
+        }
+        .our-process{
+            h3{
+                color: $white !important;
+            }
+        }
+
+        .services-wrapper{
+            &.service-3{
+                &::before{
+                    background: $black !important;
+                }
+            }
+        } 
+
+        .work-process-wrapper {
+            background: $black !important;
+            .content{
+                h3,span{
+                    color: $white;
+                }
+            }
+        }
+
+
+
+        .testimonial-wrapper{
+            .single-testimonial{
+                h2,i,h3,p{
+                    color: $white;
+                }
+                i{
+                    color: $white;
+                }
+            }
+
+            .testimonial-carousel-2{
+                .single-testimonial{
+                    h2,i,h3,p{
+                        color: $black;
+                    }
+                    i{
+                        color: $black;
+                    }
+                }
+            }
+        }
+        .case-study-carousel-wrapper::before,.consultations-wrapper::before {
+            background-color: $black;
+        }
+
+        .faq-section,.consultations-wrapper{
+            background-color: $black;
+        }
+
+        .consultations-wrapper{
+            h1{
+                color: $white;
+            }
+            .call-consultation{
+                .icon{
+                    color: $black;
+                }
+                h5{
+                    a{
+                        color: $white !important;
+                    }
+                }
+            }
+        }
+        .footer-wrap{
+            .footer-logo{
+                display: none !important;
+            }
+            .footer-logo-2{
+                display: block !important;
+            }
+            background-color: $black !important;
+            .single-footer-wid{
+                h4{
+                    color: $white !important;
+                }
+                p{
+                    color: $white !important;
+                }
+                ul{
+                    >li{
+                        a{
+                            color: $white !important;
+                            &:hover{
+                                color: $theme-color !important;
+                            }
+                        }
+                    }
+                }
+                .post-data{
+                    span{
+                        color: $white !important;
+                    }
+                    a{
+                        color: $white !important;
+                        &:hover{
+                            color: $theme-color !important;
+                        }
+                    }
+                }
+            }
+            .footer-bottom-content{
+                color: $white !important;
+            }
+        }
+    }
+}
+
+
+.dark_mode{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    right: 80px !important;
+    bottom: 3%;
+    z-index: 3;
+    .checkbox {
+        opacity: 0;
+        position: absolute;
+    }
+    .checkbox-label {
+        background-color: $theme-color;
+        width: 65px;
+        height: 30px;
+        border-radius: 50px;
+        position: relative;
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .fa-moon {color: #f1c40f;}
+  
+        .fa-sun {color: #f39c12;}
+    }
+    .checkbox-label .ball {
+        background-color: #fff;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        transition: transform 0.2s linear;
+    }
+
+    .checkbox:checked + .checkbox-label .ball {
+        transform: translateX(35px);
+    }
+
+}
+
+
+  /*  Support me if you like it */
+.support {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.support a {
+  color: #292c35;
+  font-size: 32px;
+  backface-visibility: hidden;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.support a:hover{
+  transform: scale(1.1);
+}
+
+.body-wrapper.dark-1 .blog-section .post-author a {
+    color: #000!important;
+}
+.body-wrapper.dark-1 {
+    .single-news-card {
+        .post-author a {
+            color: $white !important;
+            
+            &:hover {
+                color: $theme-color !important;
+            }
+        }
+        
+        h3 {
+            a {
+                color: $white !important;
+                
+                &:hover {
+                    color: $theme-color !important;
+                }
+            }
+        }
+    }
+    
+    .testimonial-carousel-3 {
+        .single-testimonial .client-info p:after {
+            background: $white !important;
+        }
+    }
+    
+    .about-wrapper{
+        .about-content{
+            .theme-btn:not(.style-1) {
+                &:hover {
+                    background-color: transparent;
+                    border-color: $white;
+                }
+            }
+        }
+    }
+    
+    .project__btn {
+        .theme-btn:hover {
+            border-color: $white;
+            background-color: transparent;
+        }
+    }
+    
+    .footer-7 .single-footer-wid .social-link a {
+        border: 1px solid rgb(211 50 101 / 30%);
+    }
+    
+    .hero-7 {
+        .banner-content {
+            .theme-btn:last-child {
+                background: $white;
+                
+                &:hover {
+                    background: linear-gradient(90deg,#DED1FA 0%,#FBD0D8 100%);
+                }
+            }
+        }
+    }
+    
+    .consultations-form.style-3 {
+        p {
+            color: #211e3b !important;
+        }
+    }
+}
