@@ -11,3 +11,6 @@ p.tagline-cloud-rendering{color:#eaeaeac5;letter-spacing:1px}
 .nav-pills .nav-link.active{background:-webkit-linear-gradient(30deg,#007bff,#007bff4b);background:-o-linear-gradient(30deg,#007bff,#007bff4b);background:linear-gradient(120deg,#007bff,#007bff4b);color:#fff;box-shadow:0 2px 15px rgb(0 0 0 / 10%)}
 .nav-pills .nav-link{border-radius:0}
 img.software-logo{width:30px;height:30px}
+#joinBtn span.tooltip{visibility:hidden;width:370px;background-color:#33333381;color:#fff;text-align:center;border-radius:5px;padding:15px 10px;position:absolute;z-index:1;bottom:-70px;left:50%;transform:translateX(-50%);opacity:0;transition:opacity .3s;font-size:20px;border-radius:15px;font-weight:600}
+#joinBtn:hover .tooltip{visibility:visible;opacity:1}
+.global-partner ul li{list-style-type:disc;font-size: 15px;}
