@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="rrdevs" />
+    <!-- ======== Page title ============ -->
+    <title>Syncrender</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="../assets/img/logo.png" />
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="../assets/css/icons.css" />
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <!--  owl carosuel css plugins -->
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <!-- metis menu css file -->
+    <link rel="stylesheet" href="../assets/css/metismenu.css" />
+    <!--  owl theme css plugins -->
+    <link rel="stylesheet" href="../assets/css/owl.theme.css" />
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <!--  aos css plugins -->
+    <link rel="stylesheet" href="../assets/css/aos.min.css" />
+    <!--  main style css file -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- extended style -->
+    <link rel="stylesheet" href="../assets/css/style-extended.css" />
+</head>
+
+<body class="body-wrapper">
+    <div class="dark_mode">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball"></span>
+        </label>
+    </div>
+
+    <header class="header-wrap header-2">
+        <div class="main-header-wraper">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="header-logo">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="../assets/img/logo.png" alt="logo" class="logo-syncrender" />
+                            </a>
+                        </div>
+                        <div class="logo-2">
+                            <a href="index.html">
+                                <img src="../assets/img/logo.png" alt="logo" class="logo-syncrender" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-menu d-none d-xl-block">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li>
+                                    <a href="#">About <i class="fas fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">Company</a></li>
+                                        <li><a href="global-partner.html">Global Resellers</a></li>
+                                        <li><a href="partner.html">Partners</a></li>
+                                        <li><a href="#">News</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cloud-rendering.html">Cloud Rendering</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="#">Customers</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Support
+                                    </a>
+                                    <div class="dropdown-menu p-4 rounded-3 border-0 shadow justify-content-center">
+                                        <div class="row p-0 w-100">
+                                            <div class="col-sm-6 border">
+                                                <a href="#">
+                                                    <span class="badge bg-primary">Free</span>
+                                                    <p class="fw-bold mb-3">Download Desktop Client</p>
+                                                    <a href="#" class="d-block fw-light"><i
+                                                            class="fal fa-calendar-check"></i> Batch
+                                                        submission</a>
+                                                    <a href="#" class="d-block fw-light"><i
+                                                            class="fal fa-cloud-download"></i> Automatic
+                                                        Download</a>
+                                                    <a href="#" class="d-block fw-light"><i class="fal fa-cube"></i>
+                                                        Integration with 3D
+                                                        software</a>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <table class="table text-nowrap w-100">
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="#" class="fw-light">Support Center</a>
+                                                        </td>
+                                                        <td class="py-1"><a href="#" class="fw-light">Pricing &
+                                                                Billing</a></td>
+                                                    </tr>
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="#" class="fw-light">Rendering
+                                                                Tutorial</a></td>
+                                                        <td class="py-1"><a href="#" class="fw-light">User Center
+                                                                Guide</a></td>
+                                                    </tr>
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="#" class="fw-light">General</a></td>
+                                                        <td class="py-1"><a href="#" class="fw-light">Developer Help
+                                                                Center</a></td>
+                                                    </tr>
+                                                </table>
+                                                <hr>
+                                                <div class="text-center pt-4"><a href="#" class="fw-light"><i
+                                                            class="fal fa-headset"></i> Contact Support</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-menu d-sm-none d-xl-block">
+                        <div class="header-btn-cta">
+                            <a href="contact.html" class="theme-btn">Login <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
+                            <div class="mobile-nav-wrap">
+                                <div id="hamburger">
+                                    <i class="fal fa-bars"></i>
+                                </div>
+                                <!-- mobile menu - responsive menu  -->
+                                <div class="mobile-nav">
+                                    <button type="button" class="close-nav">
+                                        <i class="fal fa-times-circle"></i>
+                                    </button>
+                                    <nav class="sidebar-nav">
+                                        <ul class="metismenu" id="mobile-menu">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="cloud-rendering.html">Cloud Rendering</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="#">Customers</a></li>
+                                            <li><a href="#">Support</a></li>
+                                        </ul>
+                                    </nav>
+
+                                    <div class="action-bar">
+                                        <a href="mailto:modinatheme@gmail.com"><i
+                                                class="fal fa-envelope-open-text"></i>support@syncrender.com</a>
+                                        <a href="tel:+62816506796"><i class="fal fa-phone"></i>+62816506796</a>
+                                        <a href="contact.html" class="d-btn theme-btn black">Login</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-banner-wrap bg-cover" style="background-image: url('../assets/img/page-banner.jpg')">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-12">
+                    <div class="page-heading">
+                        <div class="text-center">
+                            <h3 class="display-4 text-white fw-bold">SyncRender Desktop Client</h3>
+                        </div>
+                        <div class="mt-5 text-center w-50 mx-auto">
+                            <p class="text-white">The desktop client supports batch submission, automatic download and
+                                analysis, integration with 3D software, etc., simplifying the rendering process.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-100 m-4">
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100 d-flex flex-column rounded-5 shadow">
+                                <div class="card-body text-center">
+                                    <div class="display-1">
+                                        <i class="fab fa-windows text-primary"></i>
+                                    </div>
+                                    <div class="download-box-content">
+                                        <h3 class="fw-bold my-3">Windows</h3>
+                                        <ul class="fw-light">
+                                            <li>- Win11 /Win10 /Win8 /Win7</li>
+                                            <li>Drag-and-drop batch submission</li>
+                                            <li>Automatic downloading</li>
+                                            <li>Integrate into your 3D application</li>
+                                            <li>3ds Max/Maya/Cinema 4D/Blender/etc.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mb-5 text-center mt-auto">
+                                    <button class="btn btn-dark py-2 px-5 fs-5 rounded-5 mb-0"> <i
+                                            class="fal fa-arrow-to-bottom pe-1"></i> Free Download</button>
+                                    <p class="mt-3"><small>version 5.1.18.7, 2024-12-04</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100 d-flex flex-column rounded-5 shadow">
+                                <div class="card-body text-center">
+                                    <div class="display-1">
+                                        <i class="fab fa-linux"></i>
+                                    </div>
+                                    <div class="download-box-content">
+                                        <h3 class="fw-bold my-3">Linux</h3>
+                                        <ul class="fw-light">
+                                            <li>- CentOS7 /Rocky8 /Rocky9</li>
+                                            <li>- Drag-and-drop batch submission</li>
+                                            <li>- Automatic downloading</li>
+                                            <li>- Maya/etc.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mb-5 text-center mt-auto">
+                                    <button class="btn btn-dark py-2 px-5 fs-5 rounded-5 mb-0"> <i
+                                            class="fal fa-arrow-to-bottom pe-1"></i> Free Download</button>
+                                    <p class="mt-3"><small>version 5.1.16.3, 2024-03-29</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100 d-flex flex-column rounded-5 shadow">
+                                <div class="card-body text-center">
+                                    <div>
+                                        <div class="display-1">
+                                            <i class="fab fa-apple"></i>
+                                            <i class="fab fa-chrome"></i>
+                                        </div>
+                                        <div class="download-box-content">
+                                            <h3 class="fw-bold my-3">macOS & Web</h3>
+                                            <p class="fw-light">The web rendering platform supports popular 3D software
+                                                such as 3ds Max, Maya, Cinema 4D, Blender, and Unreal Engine, while
+                                                maintaining compatibility across major operating systems, including
+                                                macOS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5 text-center mt-auto">
+                                    <button class="btn btn-dark py-2 px-5 fs-5 rounded-5 mb-0"> <i
+                                            class="fal fa-arrow-to-bottom pe-1"></i> Free Download</button>
+                                    <p class="mt-3"><small>Our macOS desktop client is coming soon!</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container">
+            <div class="bg-warning p-3 rounded-5 d-flex justify-content-between align-items-center px-5">
+                <p class="text-dark"><i class="fal fa-envelope-open-text pe-2"></i> Got a question? Click <a href="#"
+                        class="text-decoration-underline">here</a> to contact your account manager or our 24/7 customer
+                    service.</p>
+                <button class="btn btn-light px-3"><i class="far fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="page-title text-center">
+                <h1>3 Ways to Start Cloud Rendering</h1>
+            </div>
+            <p class="mx-auto text-center w-75">
+                SyncRender team continues to improve desktop client and web rendering platform, dedicated to making our
+                render farm the best solution for cloud rendering. We provide 3 different ways to submit your projects
+                to render, and each of them has its own advantages. In any case, we will satisfy your rendering needs.
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-striped table-hover align-middle mt-5">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Features</th>
+                            <th class="text-center">Desktop client</th>
+                            <th class="text-center">Web</th>
+                            <th class="text-center">Plugin</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-nowrap">
+                                Supported system
+                            </td>
+                            <td class="text-center">
+                                Windows/Linux
+                            </td>
+                            <td class="text-center">
+                                Windows/Linux/MacOS
+                            </td>
+                            <td class="text-center">
+                                Windows
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Supported software
+                            </td>
+                            <td class="text-center">
+                                Windows: Maya/3ds Max/Blender/
+                                Cinema 4D/etc.
+                                Linux: Maya/etc.
+                            </td>
+                            <td class="text-center">
+                                Supports most popular 3D Software,
+                                renderers and plugins
+                            </td>
+                            <td class="text-center">
+                                Maya/3ds Max/Cinema 4D/etc.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Submission method
+                            </td>
+                            <td class="text-center">
+                                By dragging
+                            </td>
+                            <td class="text-center">
+                                Via webpage
+                            </td>
+                            <td class="text-center">
+                                By plugins
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Batch submission
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Automatic analysis
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Automatic download
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Fast uploading
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Multi-thread upload and download
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Automatic rendering cost calculation
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Charges for failed task
+                            </td>
+                            <td class="text-center">
+                                <i class="far fa-times text-secondary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="far fa-times text-secondary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="far fa-times text-secondary"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                Preview results
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check text-primary"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding mb-100">
+        <div class="container">
+            <div class="page-title text-center mb-5">
+                <h1>FAQS</h1>
+            </div>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How can I check the rendering sequences of the jobs in the desktop client?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can double-click the job to check the details and information.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            If I want to submit rendering jobs via plugin, should I need to download the plugin script?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes. When downloading the desktop client, the plugin script will be installed as the same
+                            time. If you can't find Fox Renderfarm in your 3D software, you can open the "Script"
+                            section in the client and update or install the plugin script. For more information, check
+                            the support center.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Where can I access the rendered results after submitting jobs via plugins?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The rendered results can be checked within our desktop client in the "My Downloads" section.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Do I need to pay for rendering failed jobs?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            No, there won't be any charges for rendering failed jobs.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            How can I submit multiple rendering jobs via plugin?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You need to check the "Activite Batch Render" to allow batch submission in the configuration.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var accordionItems = document.querySelectorAll('.accordion-item');
+                    accordionItems.forEach(function (item) {
+                        var button = item.querySelector('.accordion-button');
+                        button.addEventListener('click', function () {
+                            var collapse = item.querySelector('.accordion-collapse');
+                            var isCollapsed = collapse.classList.contains('show');
+                            if (isCollapsed) {
+                                collapse.classList.remove('show');
+                            } else {
+                                accordionItems.forEach(function (otherItem) {
+                                    var otherCollapse = otherItem.querySelector('.accordion-collapse');
+                                    otherCollapse.classList.remove('show');
+                                });
+                                collapse.classList.add('show');
+                            }
+                        });
+                    });
+                });
+            </script>
+        </div>
+    </section>
+
+    <footer class="footer-4 footer-wrap">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3 col-12 pr-xl-4">
+                        <div class="single-footer-wid site_footer_widget">
+                            <a href="index.html">
+                                <img src="../assets/img/logo.png" alt="" />
+                            </a>
+                            <p class="mt-4">
+                                Sed ut perspiciatis unde omnis natus voluptatem accusa ntiumy
+                                doloremque laudantium.omnis natus voluptatem accusa ntiumy
+                                doloremque laudantium
+                            </p>
+                            <div class="social-link mt-30">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-3 - single-footer-wid -->
+                    <div class="col-md-6 col-xl-2 col-12">
+                        <div class="single-footer-wid">
+                            <div class="wid-title">
+                                <h4>Company</h4>
+                            </div>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.html">Company History</a></li>
+                                <li><a href="contact.html">Need a Career</a></li>
+                                <li><a href="project-details.html">Working Process</a></li>
+                                <li><a href="news.html">Blog Post</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-3 - single-footer-wid -->
+                    <div class="col-md-6 col-xl-2 col-12">
+                        <div class="single-footer-wid">
+                            <div class="wid-title">
+                                <h4>Useful Link</h4>
+                            </div>
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Cloud Rendering</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Customers</a></li>
+                                <li><a href="">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-3 - single-footer-wid -->
+                    <div class="col-md-6 col-xl-3 col-12">
+                        <div class="single-footer-wid recent_post_widget">
+                            <div class="wid-title">
+                                <h4>News & Article</h4>
+                            </div>
+                            <div class="recent-post-list">
+                                <div class="single-recent-post">
+                                    <div class="thumb bg-cover" style="background-image: url('../assets/img/card_01.png')">
+                                    </div>
+                                    <div class="post-data">
+                                        <span><i class="fal fa-calendar-alt"></i>24th Nov 2024</span>
+                                        <h5>
+                                            <a href="news-details.html">User’s Perspes Using Story Structure</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="single-recent-post">
+                                    <div class="thumb bg-cover" style="background-image: url('../assets/img/card_02.png')">
+                                    </div>
+                                    <div class="post-data">
+                                        <span><i class="fal fa-calendar-alt"></i>15th July 2024</span>
+                                        <h5>
+                                            <a href="news-details.html">Optimiz For Assistive Technology Users</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-3 - single-footer-wid -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <div class="footer-bottom-content">
+                    © 2024 <a href="index.html">Syncrender</a>. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--  ALl JS Plugins
+        ====================================== -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/modernizr.min.js"></script>
+    <script src="../assets/js/jquery.easing.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/imageload.min.js"></script>
+    <script src="../assets/js/scrollUp.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/magnific-popup.min.js"></script>
+    <script src="../assets/js/easypiechart.min.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/metismenu.js"></script>
+    <script src="../assets/js/timeline.min.js"></script>
+    <script src="../assets/js/nice-select.min.js"></script>
+    <script src="../assets/js/ajax-mail.js"></script>
+    <script src="../assets/js/aos.min.js"></script>
+    <script src="../assets/js/active.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
