@@ -70,20 +70,77 @@
                                 <li>
                                     <a href="#">About <i class="fas fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">Company</a></li>
-                                        <li><a href="global-partner.html">Global Resellers</a></li>
-                                        <li><a href="partner.html">Partners</a></li>
-                                        <li><a href="#">News</a></li>
+                                        <li><a href="/about/about.html">Company</a></li>
+                                        <li><a href="/about/global-partner.html">Global Resellers</a></li>
+                                        <li><a href="/about/partner.html">Partners</a></li>
+                                        <li><a href="/about/news.html">News</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="cloud-rendering.html">Cloud Rendering</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="#">Customers</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li><a href="/cloud-rendering.html">Cloud Rendering</a></li>
+                                <li><a href="/pricing.html">Pricing</a></li>
+                                <li><a href="/client-works.html">Customers</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Support
+                                    </a>
+                                    <div class="dropdown-menu p-4 rounded-3 border-0 shadow justify-content-center">
+                                        <div class="row p-0 w-100">
+                                            <div class="col-sm-6">
+                                                <a href="/support/download.html">
+                                                    <div class="card border border-1 border-primary rounded-3">
+                                                        <div class="card-body">
+                                                            <div
+                                                                class="d-flex justify-content-between align-items-center mb-2">
+                                                                <p class="fw-bold fs-5">Download Desktop Client</p>
+                                                                <span class="badge bg-primary fs-6">Free</span>
+                                                            </div>
+                                                            <p><i class="fal fa-calendar-check"></i> &nbsp;Batch
+                                                                submission</p>
+                                                            <p><i class="fal fa-cloud-download"></i> Automatic Download
+                                                            </p>
+                                                            <p><i class="fal fa-cube"></i> &nbsp;Integration with 3D
+                                                                software</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <table class="table text-nowrap w-100">
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="/support" class="fw-light">Support
+                                                                Center</a></td>
+                                                        <td class="py-1"><a href="/support/pricing-and-billing.html"
+                                                                class="fw-light">Pricing & Billing</a></td>
+                                                    </tr>
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="/support/rendering-tutorial.html"
+                                                                class="fw-light">Rendering Tutorial</a></td>
+                                                        <td class="py-1"><a href="/support/user-center.html"
+                                                                class="fw-light">User Center Guide</a></td>
+                                                    </tr>
+                                                    <tr class="align-middle">
+                                                        <td class="py-1"><a href="/support/general.html"
+                                                                class="fw-light">General</a></td>
+                                                        <td class="py-1"><a href="/support/developer-center.html"
+                                                                class="fw-light">Developer Help Center</a></td>
+                                                    </tr>
+                                                </table>
+                                                <hr>
+                                                <div class="text-center pt-4"><a href="#" class="fw-light"><i
+                                                            class="fal fa-headset"></i>
+                                                        Contact Support</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="header-right d-flex align-items-center d-lg-none d-sm-block">
+                    <div class="header-menu d-sm-none d-xl-block">
+                        <div class="header-btn-cta">
+                            <a href="../signin.html" class="theme-btn">Login <i class="fas fa-arrow-right"></i></a>
+                        </div>
                         <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
                             <div class="mobile-nav-wrap">
                                 <div id="hamburger">
@@ -98,10 +155,10 @@
                                         <ul class="metismenu" id="mobile-menu">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about.html">About</a></li>
-                                            <li><a href="">Cloud Rendering</a></li>
+                                            <li><a href="cloud-rendering.html">Cloud Rendering</a></li>
                                             <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="">Customers</a></li>
-                                            <li><a href="">Support</a></li>
+                                            <li><a href="#">Customers</a></li>
+                                            <li><a href="#">Support</a></li>
                                         </ul>
                                     </nav>
 
@@ -109,7 +166,7 @@
                                         <a href="mailto:modinatheme@gmail.com"><i
                                                 class="fal fa-envelope-open-text"></i>support@syncrender.com</a>
                                         <a href="tel:+62816506796"><i class="fal fa-phone"></i>+62816506796</a>
-                                        <a href="contact.html" class="d-btn theme-btn black">Consultancy</a>
+                                        <a href="contact.html" class="d-btn theme-btn black">Login</a>
                                     </div>
                                 </div>
                             </div>
@@ -569,7 +626,8 @@
 
             <p class="mt-4 text-muted">
                 Note: The SynRender Cost Estimator gives you an estimated render farm rate for your projects, but
-                your actual fees may vary. To get a more accurate cost, you can <a href="#" class="text-primary">sign up</a> and use a free $25 render coupon
+                your actual fees may vary. To get a more accurate cost, you can <a href="#" class="text-primary">sign
+                    up</a> and use a free $25 render coupon
                 to test some of your frames; Single Frame Cost = Rendering Time per Frame × Unit Price × Cores.
             </p>
         </div>

@@ -110,4 +110,25 @@ document.addEventListener("DOMContentLoaded", function () {
   if (cpuFilterButton) {
     cpuFilterButton.click();
   }
+
+  document.querySelectorAll('.dropdown > a').forEach(function(dropdown) {
+    dropdown.addEventListener('click', function(event) {
+        // Mencegah link melakukan navigasi
+        event.preventDefault();
+
+        // Menambahkan atau menghapus kelas 'active' pada elemen dropdown
+        let parentLi = this.parentElement;
+        
+        // Menutup dropdown lainnya yang terbuka
+        document.querySelectorAll('.dropdown').forEach(function(dropdownItem) {
+            if (dropdownItem !== parentLi) {
+                dropdownItem.classList.remove('active');
+            }
+        });
+
+        // Toggle kelas 'active' pada dropdown yang diklik
+        parentLi.classList.toggle('active');
+    });
+});
+
 });
