@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Activate the current step and its content
     const currentStepElement = steps[currentStep];
     currentStepElement.classList.add("active");
-    const currentStepContent = currentStepElement.querySelector(".step-content");
+    const currentStepContent = currentStepElement.querySelector(
+      ".step-content"
+    );
     if (currentStepContent) {
       currentStepContent.classList.add("active");
     }
@@ -46,11 +48,23 @@ document.addEventListener("DOMContentLoaded", function () {
       button.addEventListener("click", (e) => {
         // Remove active class from all buttons
         filterButtons.forEach((btn) =>
-          btn.classList.remove("bg-primary", "text-white", "px-2", "py-1", "rounded-3")
+          btn.classList.remove(
+            "bg-primary",
+            "text-white",
+            "px-2",
+            "py-1",
+            "rounded-3"
+          )
         );
 
         // Add active class to the clicked button
-        e.target.classList.add("bg-primary", "text-white", "px-2", "py-1", "rounded-3");
+        e.target.classList.add(
+          "bg-primary",
+          "text-white",
+          "px-2",
+          "py-1",
+          "rounded-3"
+        );
 
         const filter = e.target.getAttribute("data-filter");
         if (filter === "cpu") {
@@ -106,29 +120,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Trigger CPU filter button click to highlight it if the button exists
-  const cpuFilterButton = document.querySelector('.btn-filter[data-filter="cpu"]');
+  const cpuFilterButton = document.querySelector(
+    '.btn-filter[data-filter="cpu"]'
+  );
   if (cpuFilterButton) {
     cpuFilterButton.click();
   }
 
-  document.querySelectorAll('.dropdown > a').forEach(function(dropdown) {
-    dropdown.addEventListener('click', function(event) {
-        // Mencegah link melakukan navigasi
-        event.preventDefault();
+  document.querySelectorAll(".dropdown > a").forEach(function (dropdown) {
+    dropdown.addEventListener("click", function (event) {
+      // Mencegah link melakukan navigasi
+      event.preventDefault();
 
-        // Menambahkan atau menghapus kelas 'active' pada elemen dropdown
-        let parentLi = this.parentElement;
-        
-        // Menutup dropdown lainnya yang terbuka
-        document.querySelectorAll('.dropdown').forEach(function(dropdownItem) {
-            if (dropdownItem !== parentLi) {
-                dropdownItem.classList.remove('active');
-            }
-        });
+      // Menambahkan atau menghapus kelas 'active' pada elemen dropdown
+      let parentLi = this.parentElement;
 
-        // Toggle kelas 'active' pada dropdown yang diklik
-        parentLi.classList.toggle('active');
+      // Menutup dropdown lainnya yang terbuka
+      document.querySelectorAll(".dropdown").forEach(function (dropdownItem) {
+        if (dropdownItem !== parentLi) {
+          dropdownItem.classList.remove("active");
+        }
+      });
+
+      // Toggle kelas 'active' pada dropdown yang diklik
+      parentLi.classList.toggle("active");
     });
-});
-
+  });
 });

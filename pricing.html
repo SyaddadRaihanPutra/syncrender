@@ -36,13 +36,13 @@
 
 <body class="body-wrapper">
     <div class="dark_mode">
-    <input type="checkbox" class="checkbox" id="checkbox" />
-    <!-- <label for="checkbox" class="checkbox-label">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <!-- <label for="checkbox" class="checkbox-label">
       <i class="fas fa-moon"></i>
       <i class="fas fa-sun"></i>
       <span class="ball"></span>
     </label> -->
-  </div>
+    </div>
 
     <!-- welcome content start from here -->
 
@@ -94,12 +94,9 @@
                                                                 <p class="fw-bold fs-5">Download Desktop Client</p>
                                                                 <span class="badge bg-primary fs-6">Free</span>
                                                             </div>
-                                                            <p><i class="fal fa-calendar-check"></i> &nbsp;Batch
-                                                                submission</p>
-                                                            <p><i class="fal fa-cloud-download"></i> Automatic Download
-                                                            </p>
-                                                            <p><i class="fal fa-cube"></i> &nbsp;Integration with 3D
-                                                                software</p>
+                                                            <p><i class="fal fa-calendar-check"></i> &nbsp;Catalog rendering</p>
+                                                            <p><i class="fal fa-cloud-download"></i> Price list                                                   </p>
+                                                            <p><i class="fal fa-cube"></i> &nbsp;Collaboration tools</p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -235,8 +232,8 @@
                     </div>
                     <!-- Filter Buttons -->
                     <div class="price-filter gap-3 d-flex justify-content-center mt-3">
-                        <button class="btn-filter px-3 py-1" data-filter="cpu">CPU Pricing</button>
-                        <button class="btn-filter px-3 py-1" data-filter="gpu">GPU Pricing</button>
+                        <button class="btn-filter px-3 py-1" data-filter="cpu">Pay Yearly | SAVE 20%</button>
+                        <button class="btn-filter px-3 py-1" data-filter="gpu">Pay Monthly</button>
                     </div>
                 </div>
             </div>
@@ -247,184 +244,224 @@
                     <div class="price__element">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4 position-relative" style="z-index: 1;" id="cpu-price-1">300.000</h3>
+                                <h3 class="ms-4" id="unit-price-1">$20 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Basic</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Silver</h4>
+                                <p>Package</p>
                             </div>
-                            <select class="cpu-cores d-block form-select w-50" data-id="1">
-                                <option value="1">1 Core</option>
-                                <option value="2">2 Cores</option>
-                                <option value="4">4 Cores</option>
-                                <option value="8">8 Cores</option>
-                            </select>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrement(1)"><i class="far fa-minus"></i></button>
+                                <span id="quantity-1" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">12</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="increment(1)"><i class="far fa-plus"></i></button>
+                            </div>
+
                             <a href="#" class="theme-btn mb-30">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li class="active">Advanced Custom Fields</li>
-                                <li class="active">Planning Solution</li>
-                                <li class="active">Enhanced Support</li>
+                                <li>Basic cloud storage.</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Limited access to 3D model assets and textures.</li>
+                                <li>Priority email support.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <!-- CPU Pricing Plan 2 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element">
+                    <div class="price__element shadow-lg border border-3 border-primary">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4 position-relative" style="z-index: 1;" id="cpu-price-2">450.000</h3>
+                                <h3 class="ms-4" id="unit-price-2">$30 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Standard</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Gold</h4>
+                                <p>Package</p>
                             </div>
-                            <select class="cpu-cores d-block form-select w-50" data-id="2">
-                                <option value="1">1 Core</option>
-                                <option value="2">2 Cores</option>
-                                <option value="4">4 Cores</option>
-                                <option value="8">8 Cores</option>
-                            </select>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrement(2)"><i class="far fa-minus"></i></button>
+                                <span id="quantity-2" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">12</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="increment(2)"><i class="far fa-plus"></i></button>
+                            </div>
+
                             <a href="#" class="theme-btn mb-30">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li>Advanced Custom Fields</li>
-                                <li class="active">Planning Solution</li>
-                                <li class="active">Enhanced Support</li>
+                                <li>All features of Silver, plus</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Enhanced cloud rendering performance.</li>
+                                <li>Increased access to 3D model assets and textures.</li>
+                                <li>Priority email support.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <!-- CPU Pricing Plan 3 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing" data-aos="fade-up" data-aos-delay="100">
                     <div class="price__element">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4 position-relative" style="z-index: 1;" id="cpu-price-3">600.000</h3>
+                                <h3 class="ms-4" id="unit-price-3">$50 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Advanced</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Platinum</h4>
+                                <p>Package</p>
                             </div>
-                            <select class="cpu-cores d-block form-select w-50" data-id="3">
-                                <option value="1">1 Core</option>
-                                <option value="2">2 Cores</option>
-                                <option value="4">4 Cores</option>
-                                <option value="8">8 Cores</option>
-                            </select>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrement(3)"><i class="far fa-minus"></i></button>
+                                <span id="quantity-3" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">12</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="increment(3)"><i class="far fa-plus"></i></button>
+                            </div>
+
                             <a href="#" class="theme-btn mb-30">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li>Advanced Custom Fields</li>
-                                <li>Planning Solution</li>
-                                <li>Enhanced Support</li>
+                                <li>Full cloud storage management with optimized performance.</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Unlimited access to 3D model assets.</li>
+                                <li>Unlimited access to texture assets.</li>
+                                <li>Dedicated mail support for faster responses and personalized assistance.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <!-- GPU Pricing Plan 1 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up">
                     <div class="price__element">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4">1.500.000</h3>
+                                <h3 class="ms-4" id="unit-Month-1">$20 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Standard</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Silver</h4>
+                                <p>Package</p>
                             </div>
-                            <a href="#" class="theme-btn mb-30">Get Started</a>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrementMonth(1)"><i class="far fa-minus"></i></button>
+                                <span id="quantityMonth-1" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">1</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="incrementMonth(1)"><i class="far fa-plus"></i></button>
+                            </div>
+
+                            <a href="#" class="theme-btn mb-30" onclick="calculateTotal(1)">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li>Advanced Custom Fields</li>
-                                <li class="active">Planning Solution</li>
-                                <li class="active">Enhanced Support</li>
+                                <li>Basic cloud storage.</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Limited access to 3D model assets and textures.</li>
+                                <li>Priority email support.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Premium GPU Plan -->
+
+                <!-- GPU Pricing Plan 2 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element">
+                    <div class="price__element shadow-lg border border-3 border-primary">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4">2.000.000</h3>
+                                <h3 class="ms-4" id="unit-Month-2">$30 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Premium</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Gold</h4>
+                                <p>Package</p>
                             </div>
-                            <a href="#" class="theme-btn mb-30">Get Started</a>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrementMonth(2)"><i class="far fa-minus"></i></button>
+                                <span id="quantityMonth-2" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">1</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="incrementMonth(2)"><i class="far fa-plus"></i></button>
+                            </div>
+
+                            <a href="#" class="theme-btn mb-30" onclick="calculateTotal(2)">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li>Advanced Custom Fields</li>
-                                <li>Planning Solution</li>
-                                <li>Enhanced Support</li>
+                                <li>All features of Silver, plus</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Enhanced cloud rendering performance.</li>
+                                <li>Increased access to 3D model assets and textures.</li>
+                                <li>Priority email support.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Enterprise GPU Plan -->
+
+                <!-- GPU Pricing Plan 3 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up" data-aos-delay="100">
                     <div class="price__element">
                         <div class="price__head">
                             <div class="price__range">
-                                <span>IDR</span>
-                                <h3 class="ms-4">2.500.000</h3>
+                                <h3 class="ms-4" id="unit-Month-3">$50 USD</h3>
                                 <p class="ms-4">/Per Month</p>
                             </div>
                         </div>
                         <div class="preice__body">
-                            <div class="cetagory__element">
-                                <h4>Enterprise</h4>
-                                <p>Plan</p>
+                            <div class="cetagory__element" style="margin-top: -50px;">
+                                <h4>Platinum</h4>
+                                <p>Package</p>
                             </div>
-                            <a href="#" class="theme-btn mb-30">Get Started</a>
+                            <div class="d-flex justify-content-start align-items-center mb-3">
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="decrementMonth(3)"><i class="far fa-minus"></i></button>
+                                <span id="quantityMonth-3" class="form-control text-center mx-2 rounded-pill"
+                                    style="width: 60px;">1</span>
+                                <button class="btn btn-outline-primary rounded-circle" type="button"
+                                    onclick="incrementMonth(3)"><i class="far fa-plus"></i></button>
+                            </div>
+
+                            <a href="#" class="theme-btn mb-30" onclick="calculateTotal(3)">Get Started</a>
                             <ul class="plan-features">
-                                <li>Powerful Admin Panel</li>
-                                <li>Support Via E-Mail</li>
-                                <li>Advanced Custom Fields</li>
-                                <li>Planning Solution</li>
-                                <li>Enhanced Support</li>
+                                <li>Full cloud storage management with optimized performance.</li>
+                                <li>Dashboard access, similar to Trello, for better project management and tracking.
+                                </li>
+                                <li>Unlimited access to 3D model assets.</li>
+                                <li>Unlimited access to texture assets.</li>
+                                <li>Dedicated mail support for faster responses and personalized assistance.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="gpu-pricing mt-5">
-                GPU cost equation: GPU unit price × render hours
+                CPU cost equation: CPU unit price × render hours
                 <p><b>Remarks:</b></p>
                 <ol class="list-group-numbered">
-                    <li>Default GPU unit price is based on 2 cards node.</li>
-                    <li>Default RAM is 64GB, nodes with more RAM are available with extra cost</li>
-                    <li>Some render software have extra cost, there will be cost notification for such software when
-                        submitting the render.</li>
+                    <li>CPU unit price is based on physical core numbers, CPU unit price = core unit price × physical
+                        core numbers.</li>
+                    <li>Default RAM is 64GB, nodes with more RAM are available with extra cost.</li>
+                    <li>Additional charges may apply for certain rendering software; you'll receive a cost notification
+                        upon task submission.</li>
                 </ol>
             </div>
             <div class="cpu-pricing mt-5">
@@ -447,223 +484,157 @@
         </div>
     </section>
 
-    <section class="section-padding">
+    <section class="section-padding mb-100">
         <div class="container my-5">
-            <ul class="nav nav-tabs w-100 d-flex justify-content-center" id="pricingTab" role="tablist">
-                <li class="nav-item flex-fill text-center" role="presentation">
-                    <button class="nav-link active w-100" id="cpu-tab" data-bs-toggle="tab" data-bs-target="#cpu"
-                        type="button" role="tab" aria-controls="cpu" aria-selected="true">CPU Pricing</button>
-                </li>
-                <li class="nav-item flex-fill text-center" role="presentation">
-                    <button class="nav-link w-100" id="gpu-tab" data-bs-toggle="tab" data-bs-target="#gpu" type="button"
-                        role="tab" aria-controls="gpu" aria-selected="false">GPU Pricing</button>
-                </li>
-            </ul>
-            <div class="tab-content" id="pricingTabContent">
-                <!-- CPU Pricing Tab -->
-                <div class="tab-pane fade show active" id="cpu" role="tabpanel" aria-labelledby="cpu-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card p-4 mt-3">
-                                <h5 class="card-title">My Workstation</h5>
-                                <form id="cpu-pricing-form">
-                                    <div class="mb-3">
-                                        <div class="row">
-                                            <label for="processorModel" class="form-label">Processor Model</label>
-                                            <div class="col-md-6">
-                                                <select id="processorModel" class="form-select">
-                                                    <option value="2.2">Intel Xeon E5-2660 v2 (2.20 GHz)</option>
-                                                    <option value="2.6">Intel Xeon E5-2670 v3 (2.60 GHz)</option>
-                                                    <option value="3.0">Intel Xeon E5-2687W v4 (3.00 GHz)</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="number" id="numCores" class="form-control"
-                                                    placeholder="2.30 GHz" disabled>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="card-title">My Workstation</h5>
-                                    <div class="row workstation">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="numFrames" class="form-label" style="font-size: 14px;">Number of
-                                                frames</label>
-                                            <input type="number" id="numFrames" class="form-control" placeholder="200"
-                                                value="200">
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <label for="renderTimePerFrame" class="form-label" style="font-size: 14px;">
-                                                Average render time per frame (min)
-                                            </label>
-                                            <div class="input-group">
-                                                <input type="number" id="renderTimePerFrame" class="form-control"
-                                                    placeholder="5" value="5">
-                                                <span class="input-group-text">
-                                                    Min
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="numNodes" class="form-label">Amount of Nodes</label>
-                                        <input type="number" id="numNodes" class="form-control" placeholder="5"
-                                            value="5">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h5 class="card-title">Render Time</h5>
-                                        <div class="d-flex justify-content-between">
-                                            <div>
-                                                <span>On your workstation</span>
-                                                <input id="workstationTime"
-                                                    class="fw-bold bg-secondary p-2 text-dark bg-opacity-10 rounded-3"
-                                                    readonly />
-                                            </div>
-                                            <div>
-                                                <span>On SynRender</span>
-                                                <input id="renderfarmTime"
-                                                    class="fw-bold text-warning bg-warning rounded-3 p-2 text-dark bg-opacity-10"
-                                                    readonly />
-                                                <div id="renderfarmError" class="text-danger" style="display: none;">
-                                                    Please revaluate</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card p-4 mt-3">
-                                <h5 class="card-title">Cost</h5>
-                                <div class="mb-3">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Platinum <span>$9</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Gold <span>$10</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Silver <span>$12</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Ordinary <span>$13</span></li>
-                                    </ul>
-                                    <div class="text-start mt-3">
-                                        <a href="#" class="theme-btn">Get US$25 Now</a>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-12 text-center mb-30">
+                <div class="section-title section__title_3" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Select Your Project Type</h3>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-3 col-12 mb-3">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/250x250" alt="Simple Modeling" class="img-fluid mb-3">
+                        <h5 class="py-4">Simple Modeling</h5>
+                        <div class="d-flex justify-content-center align-items-center pb-4">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="decrementCounter('simpleModelingCounter')">
+                                <i class="far fa-minus"></i>
+                            </button>
+                            <input id="simpleModelingCounter" class="form-control text-center mx-2 rounded-pill"
+                                type="number" value="0" readonly style="width: 60px;">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="incrementCounter('simpleModelingCounter')">
+                                <i class="far fa-plus"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <!-- GPU Pricing Tab -->
-                <div class="tab-pane fade" id="gpu" role="tabpanel" aria-labelledby="gpu-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card p-4 mt-3">
-                                <h5 class="card-title">GPU Pricing</h5>
-                                <form id="cpu-pricing-form">
-                                    <div class="mb-3">
-                                        <label for="processorModel" class="form-label">Processor Model</label>
-                                        <select id="processorModel" class="form-select">
-                                            <option value="2.2">Intel Xeon E5-2660 v2 (2.20 GHz)</option>
-                                            <option value="2.6">Intel Xeon E5-2670 v3 (2.60 GHz)</option>
-                                            <option value="3.0">Intel Xeon E5-2687W v4 (3.00 GHz)</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="numFrames" class="form-label">Number of frames</label>
-                                        <input type="number" id="numFrames" class="form-control" placeholder="200"
-                                            value="200">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="renderTimePerFrame" class="form-label">Average render time per
-                                            frame (min)</label>
-                                        <input type="number" id="renderTimePerFrame" class="form-control"
-                                            placeholder="5" value="5">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="numNodes" class="form-label">Amount of Nodes</label>
-                                        <input type="number" id="numNodes" class="form-control" placeholder="5"
-                                            value="5">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Render Time</label>
-                                        <div class="d-flex justify-content-between">
-                                            <div>
-                                                <span>On your workstation</span>
-                                                <p id="workstationTime" class="fw-bold">0 min</p>
-                                            </div>
-                                            <div>
-                                                <span>On SynRender</span>
-                                                <p id="renderfarmTime" class="fw-bold text-warning">0 min</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                <div class="col-md-3 col-lg-3 col-12 mb-3">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/250x250" alt="Simple Modeling" class="img-fluid mb-3">
+                        <h5 class="py-4">Complex Modeling</h5>
+                        <div class="d-flex justify-content-center align-items-center pb-4">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="decrementCounter('complexModelingCounter')">
+                                <i class="far fa-minus"></i>
+                            </button>
+                            <input id="complexModelingCounter" class="form-control text-center mx-2 rounded-pill"
+                                type="number" value="0" readonly style="width: 60px;">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="incrementCounter('complexModelingCounter')">
+                                <i class="far fa-plus"></i>
+                            </button>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card p-4 mt-3">
-                                <h5 class="card-title">GPU Pricing</h5>
-                                <ul class="list-group">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Diamond <span>$8</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Platinum <span>$9</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Gold <span>$10</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Silver <span>$12</span></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        Ordinary <span>$13</span></li>
-                                </ul>
-                                <div class="text-start mt-3">
-                                    <a href="#" class="theme-btn">Get US$25 Now</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 mb-3">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/250x250" alt="Simple Modeling" class="img-fluid mb-3">
+                        <h5 class="py-4">Simple Lifestyle</h5>
+                        <div class="d-flex justify-content-center align-items-center pb-4">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="decrementCounter('simpleLifestyleCounter')">
+                                <i class="far fa-minus"></i>
+                            </button>
+                            <input id="simpleLifestyleCounter" class="form-control text-center mx-2 rounded-pill"
+                                type="number" value="0" readonly style="width: 60px;">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="incrementCounter('simpleLifestyleCounter')">
+                                <i class="far fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 mb-3">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/250x250" alt="Simple Modeling" class="img-fluid mb-3">
+                        <h5 class="py-4">Complex Lifestyle</h5>
+                        <div class="d-flex justify-content-center align-items-center pb-4">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="decrementCounter('complexLifestyleCounter')">
+                                <i class="far fa-minus"></i>
+                            </button>
+                            <input id="complexLifestyleCounter" class="form-control text-center mx-2 rounded-pill"
+                                type="number" value="0" readonly style="width: 60px;">
+                            <button class="btn btn-outline-primary rounded-circle" type="button"
+                                onclick="incrementCounter('complexLifestyleCounter')">
+                                <i class="far fa-plus"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <p class="mt-4 text-muted">
-                Note: The SynRender Cost Estimator gives you an estimated render farm rate for your projects, but
-                your actual fees may vary. To get a more accurate cost, you can <a href="#" class="text-primary">sign
-                    up</a> and use a free $25 render coupon
-                to test some of your frames; Single Frame Cost = Rendering Time per Frame × Unit Price × Cores.
-            </p>
+            <div class="mt-100">
+                <div class="col-12 text-center mb-30">
+                    <div class="section-title section__title_3">
+                        <h3>Select More Options For Your Project</h3>
+                    </div>
+                </div>
+                <div class="container my-5">
+                    <div class="row g-4">
+                        <div class="col-md-4 d-flex align-items-center gap-3 justify-content-end">
+                            <span>Print Design</span>
+                            <div class="input-group" style="width: 120px;">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="decrementCounter('printDesignCounter')">−</button>
+                                <input id="printDesignCounter" type="text" class="form-control text-center" value="0"
+                                    readonly>
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="incrementCounter('printDesignCounter')">+</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center gap-3 justify-content-end">
+                            <span>360°</span>
+                            <div class="input-group" style="width: 120px;">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="decrementCounter('_360Counter')">−</button>
+                                <input id="_360Counter" type="text" class="form-control text-center" value="0" readonly>
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="incrementCounter('_360Counter')">+</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center gap-3 justify-content-end">
+                            <span>High-Res Images</span>
+                            <div class="input-group" style="width: 120px;">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="decrementCounter('highResImagesCounter')">−</button>
+                                <input id="highResImagesCounter" type="text" class="form-control text-center" value="0"
+                                    readonly>
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="incrementCounter('highResImagesCounter')">+</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center gap-3 justify-content-end">
+                            <span>Animation (3 sec)</span>
+                            <div class="input-group" style="width: 120px;">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="decrementCounter('animationCounter')">−</button>
+                                <input id="animationCounter" type="text" class="form-control text-center" value="0"
+                                    readonly>
+                                <button class="btn btn-outline-secondary" type="button"
+                                    onclick="incrementCounter('animationCounter')">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <h1 id="totalPrice">$0</h1>
+                            <p class="text-muted">Estimated Price</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <h1 id="totalDay">0 Days</h1>
+                            <p class="text-muted">Estimated Time</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <script>
-            // Calculate Render Time when the page loads
-            window.addEventListener('DOMContentLoaded', function () {
-                // Trigger the initial calculation on page load
-                calculateRenderTime();
-
-                // Add event listener to recalculate when inputs change
-                document.getElementById('cpu-pricing-form').addEventListener('input', calculateRenderTime);
-            });
-
-            function calculateRenderTime() {
-                // Get the values from the form
-                const numFrames = parseInt(document.getElementById('numFrames').value) || 0;
-                const renderTimePerFrame = parseInt(document.getElementById('renderTimePerFrame').value) || 0;
-                const numNodes = parseInt(document.getElementById('numNodes').value) || 1;
-
-                // Calculate total render time
-                const totalWorkstationTime = numFrames * renderTimePerFrame;
-                const totalRenderfarmTime = totalWorkstationTime / numNodes;
-
-                // Set the values into the input fields
-                document.getElementById('workstationTime').value = `${totalWorkstationTime} min`;
-                document.getElementById('renderfarmTime').value = `${totalRenderfarmTime.toFixed(0)} min`;
-
-                // Validation: Show error message if numFrames or renderTimePerFrame is less than numNodes
-                const errorMessage = document.getElementById('renderfarmError');
-                if (numFrames < numNodes || renderTimePerFrame < numNodes) {
-                    errorMessage.style.display = 'block';  // Show error
-                } else {
-                    errorMessage.style.display = 'none';   // Hide error
-                }
-            }
-        </script>
     </section>
 
     <footer class="footer-4 footer-wrap p-0">
@@ -673,18 +644,80 @@
                     <div class="col-md-6 col-xl-3 col-12 pr-xl-4">
                         <div class="single-footer-wid site_footer_widget">
                             <a href="index.html">
-                                <img src="assets/img/logo.png" alt="" />
+                                <img src="assets/img/logo/syncrender.png" width="250" class="mx-auto d-block" alt="" style="filter: invert(1);" />
                             </a>
-                            <p class="mt-4">
-                                Sed ut perspiciatis unde omnis natus voluptatem accusa ntiumy
-                                doloremque laudantium.omnis natus voluptatem accusa ntiumy
-                                doloremque laudantium
-                            </p>
-                            <div class="social-link mt-30">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            <div
+                                class="p-3 rounded-5 bg-secondary bg-opacity-10 mt-3 d-flex flex-column align-items-center justify-content-center">
+                                <h1 class="fw-light">4.9</h1>
+                                <div class="text-warning fs-4">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <img src="assets/img/logo/trustpilot.png" width="200" alt />
+                            </div>
+                            <div
+                                class="p-3 rounded-5 bg-secondary bg-opacity-10 mt-3 d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/img/logo/tpn.png" width="105" alt="">
+                                <img src="assets/img/logo/blender.png" width="105" alt="">
+                            </div>
+                            <div class="d-flex text-white gap-2 align-items-center mt-30">
+                                <a href="https://instagram.com/syncrender"><svg class="text-white"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                        <path d="M16.5 7.5v.01" />
+                                    </svg></a>
+                                <a href="https://x.com/syncrender">
+                                    <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                                    </svg>
+                                </a>
+                                <a href="https://pinterest.com/syncrender"><svg class="text-white"
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-pinterest">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M8 20l4 -9" />
+                                        <path
+                                            d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    </svg></a>
+                                <a href="https://youtube.com"><svg class="text-white" xmlns="http://www.w3.org/2000/svg"
+                                        width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                                        <path d="M10 9l5 3l-5 3z" />
+                                    </svg></a>
+                                <a href="https://www.linkedin.com/in/syncrender/"><svg class="text-white"
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M8 11v5" />
+                                        <path d="M8 8v.01" />
+                                        <path d="M12 16v-5" />
+                                        <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+                                        <path
+                                            d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+                                    </svg></a>
                             </div>
                         </div>
                     </div>
@@ -695,56 +728,68 @@
                                 <h4>Company</h4>
                             </div>
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Company History</a></li>
-                                <li><a href="contact.html">Need a Career</a></li>
-                                <li><a href="project-details.html">Working Process</a></li>
-                                <li><a href="news.html">Blog Post</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.col-lg-3 - single-footer-wid -->
-                    <div class="col-md-6 col-xl-2 col-12">
-                        <div class="single-footer-wid">
-                            <div class="wid-title">
-                                <h4>Useful Link</h4>
-                            </div>
-                            <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Cloud Rendering</a></li>
-                                <li><a href="">Pricing</a></li>
-                                <li><a href="">Customers</a></li>
-                                <li><a href="">Support</a></li>
+                                <li><a href="cloud-rendering.html">Cloud Rendering</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="client-works.html">Customer</a></li>
+                                <li><a href="about/about.html">About Us</a></li>
+                                <li><a href="about/global-partner.html">Global Resellers</a></li>
+                                <li><a href="about/partner.html">Partners</a></li>
                             </ul>
                         </div>
                     </div>
                     <!-- /.col-lg-3 - single-footer-wid -->
                     <div class="col-md-6 col-xl-3 col-12">
-                        <div class="single-footer-wid recent_post_widget">
+                        <div class="single-footer-wid">
                             <div class="wid-title">
-                                <h4>News & Article</h4>
+                                <h4>Support</h4>
                             </div>
-                            <div class="recent-post-list">
-                                <div class="single-recent-post">
-                                    <div class="thumb bg-cover" style="background-image: url('assets/img/card_01.png')">
-                                    </div>
-                                    <div class="post-data">
-                                        <span><i class="fal fa-calendar-alt"></i>24th Nov 2024</span>
-                                        <h5>
-                                            <a href="news-details.html">User’s Perspes Using Story Structure</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="single-recent-post">
-                                    <div class="thumb bg-cover" style="background-image: url('assets/img/card_02.png')">
-                                    </div>
-                                    <div class="post-data">
-                                        <span><i class="fal fa-calendar-alt"></i>15th July 2024</span>
-                                        <h5>
-                                            <a href="news-details.html">Optimiz For Assistive Technology Users</a>
-                                        </h5>
-                                    </div>
-                                </div>
+                            <ul>
+                                <li><a href="support/download.html">Download</a></li>
+                                <li><a href="support/general.html">Tutorial</a></li>
+                            </ul>
+                        </div>
+                        <div class="single-footer-wid">
+                            <div class="wid-title">
+                                <h4>Business Consulting</h4>
+                            </div>
+                            <p class="fw-light">Marketing Contract: Tri Sumartono</p>
+                            <p class="fw-light"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                    <path d="M3 7l9 6l9 -6" />
+                                </svg> <a href="mailto:tri@syncrender.com">tri@syncrender.com</a></p>
+                            <p class="fw-light"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                </svg> <a href="tel:+6281214195663">+6281214195663</a></p>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-3 - single-footer-wid -->
+                    <div class="col-md-6 col-xl-3 col-12">
+                        <div class="single-footer-wid recent_post_widget">
+                            <div class="p-4 bg-white bg-opacity-10 rounded-5">
+                                <h4 class="text-white text-center">Newsletter</h4>
+                                <p class="text-center fs-6 lh-sm pt-3">Keep up with our latest software updates, special
+                                    offers and
+                                    events!</p>
+                                <form action="#" class="pt-4">
+                                    <input type="text"
+                                        class="form-control bg-light text-white bg-opacity-10 border border-1 border-secondary"
+                                        placeholder="Your name" name="name" id="">
+                                    <input type="email"
+                                        class="form-control bg-light text-white bg-opacity-10 border border-1 border-secondary mt-3"
+                                        placeholder="Email" name="email" id="">
+                                    <button type="submit"
+                                        class="btn-primary btn-sm w-100 py-2 mt-4 rounded-pill mt-3">Subscribe</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -761,6 +806,85 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Harga masing-masing opsi dan estimasi waktu per unit
+            const prices = {
+                simpleModeling: { price: 20, days: 1 },
+                complexModeling: { price: 65, days: 1 },
+                simpleLifestyle: { price: 75, days: 1 },
+                complexLifestyle: { price: 100, days: 1 },
+                printDesign: { price: 5, days: 1 },
+                highResImages: { price: 10, days: 1 },
+                _360: { price: 25, days: 1 },
+                animation: { price: 45, days: 3 }  // 3 days per 3 seconds of animation
+            };
+
+            // Fungsi untuk menghitung total dan estimasi hari
+            function calculateTotal() {
+                let total = 0;
+                let totalDays = 0;
+
+                // Ambil nilai counter dan tambahkan ke total dan total hari
+                total += parseInt(document.getElementById("simpleModelingCounter").value) * prices.simpleModeling.price;
+                totalDays += parseInt(document.getElementById("simpleModelingCounter").value) * prices.simpleModeling.days;
+
+                total += parseInt(document.getElementById("complexModelingCounter").value) * prices.complexModeling.price;
+                totalDays += parseInt(document.getElementById("complexModelingCounter").value) * prices.complexModeling.days;
+
+                total += parseInt(document.getElementById("simpleLifestyleCounter").value) * prices.simpleLifestyle.price;
+                totalDays += parseInt(document.getElementById("simpleLifestyleCounter").value) * prices.simpleLifestyle.days;
+
+                total += parseInt(document.getElementById("complexLifestyleCounter").value) * prices.complexLifestyle.price;
+                totalDays += parseInt(document.getElementById("complexLifestyleCounter").value) * prices.complexLifestyle.days;
+
+                total += parseInt(document.getElementById("printDesignCounter").value) * prices.printDesign.price;
+                totalDays += parseInt(document.getElementById("printDesignCounter").value) * prices.printDesign.days;
+
+                total += parseInt(document.getElementById("highResImagesCounter").value) * prices.highResImages.price;
+                totalDays += parseInt(document.getElementById("highResImagesCounter").value) * prices.highResImages.days;
+
+                total += parseInt(document.getElementById("_360Counter").value) * prices._360.price;
+                totalDays += parseInt(document.getElementById("_360Counter").value) * prices._360.days;
+
+                total += parseInt(document.getElementById("animationCounter").value) * prices.animation.price;
+                totalDays += parseInt(document.getElementById("animationCounter").value) * prices.animation.days;
+
+                // Update tampilan total dan total hari
+                const totalPriceElement = document.getElementById("totalPrice");
+                const totalDayElement = document.getElementById("totalDay");
+
+                if (totalPriceElement && totalDayElement) {
+                    totalPriceElement.textContent = `$${total}`;
+                    totalDayElement.textContent = `${totalDays} Days`;
+                } else {
+                    console.error("Element with IDs 'totalPrice' or 'totalDay' not found.");
+                }
+            }
+
+            // Fungsi increment & decrement untuk setiap item
+            function incrementCounter(counterId) {
+                const counter = document.getElementById(counterId);
+                if (counter) {
+                    counter.value = parseInt(counter.value) + 1;
+                    calculateTotal();
+                }
+            }
+
+            function decrementCounter(counterId) {
+                const counter = document.getElementById(counterId);
+                if (counter && parseInt(counter.value) > 0) {
+                    counter.value = parseInt(counter.value) - 1;
+                    calculateTotal();
+                }
+            }
+
+            // Assign fungsi ke global scope untuk digunakan di onclick
+            window.incrementCounter = incrementCounter;
+            window.decrementCounter = decrementCounter;
+        });
+    </script>
 
     <!--  ALl JS Plugins
       ====================================== -->
@@ -786,6 +910,105 @@
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/active.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        // Fungsi untuk memperbarui harga
+        function updateTotalPrice(planId) {
+            var pricePerMonth;
+            if (planId === 1) pricePerMonth = 20; // Harga plan 1 (Silver)
+            if (planId === 2) pricePerMonth = 30; // Harga plan 2 (Gold)
+            if (planId === 3) pricePerMonth = 50; // Harga plan 3 (Platinum)
+
+            var quantity = document.getElementById('quantity-' + planId).innerText;
+            var totalPrice = pricePerMonth * parseInt(quantity);
+
+            // Terapkan diskon 20% jika quantity >= 12
+            if (quantity >= 12) {
+                totalPrice = totalPrice * 0.8; // Diskon 20%
+            }
+
+            // Format harga untuk menghapus ".00" jika harga adalah angka bulat
+            var formattedPrice = totalPrice.toFixed(2);
+            if (formattedPrice.endsWith('.00')) {
+                formattedPrice = formattedPrice.slice(0, -3); // Hapus ".00" jika ada
+            }
+
+            document.getElementById('unit-price-' + planId).innerText = "$" + formattedPrice + " USD"; // Update harga total di unit-price
+        }
+
+        // Fungsi untuk increment
+        function increment(planId) {
+            var quantity = document.getElementById('quantity-' + planId);
+            quantity.innerText = parseInt(quantity.innerText) + 1;
+            updateTotalPrice(planId);  // Update harga total setelah increment
+        }
+
+        // Fungsi untuk decrement
+        function decrement(planId) {
+            var quantity = document.getElementById('quantity-' + planId);
+            if (quantity.innerText > 12) { // Cegah pengurangan di bawah 12
+                quantity.innerText = parseInt(quantity.innerText) - 1;
+                updateTotalPrice(planId);  // Update harga total setelah decrement
+            }
+        }
+
+        // Update harga total saat pertama kali dimuat
+        updateTotalPrice(1);
+        updateTotalPrice(2);
+        updateTotalPrice(3);
+    </script>
+    <script>
+        // Fungsi untuk menambah jumlah bulan
+        function incrementMonth(planId) {
+            let quantity = document.getElementById(`quantityMonth-${planId}`);
+            quantity.innerText = parseInt(quantity.innerText) + 1;
+            calculateTotal(planId); // Update total harga setelah penambahan bulan
+        }
+
+        // Fungsi untuk mengurangi jumlah bulan
+        function decrementMonth(planId) {
+            let quantity = document.getElementById(`quantityMonth-${planId}`);
+            if (parseInt(quantity.innerText) > 1) {
+                quantity.innerText = parseInt(quantity.innerText) - 1;
+                calculateTotal(planId); // Update total harga setelah pengurangan bulan
+            }
+        }
+
+        // Fungsi untuk menghitung total biaya
+        function calculateTotal(planId) {
+            let quantity = parseInt(document.getElementById(`quantityMonth-${planId}`).innerText);
+            let unitPrice;
+
+            // Menentukan harga per bulan berdasarkan paket
+            switch (planId) {
+                case 1:
+                    unitPrice = 20; // Harga untuk Silver
+                    break;
+                case 2:
+                    unitPrice = 30; // Harga untuk Gold
+                    break;
+                case 3:
+                    unitPrice = 50; // Harga untuk Platinum
+                    break;
+                default:
+                    unitPrice = 20;
+            }
+
+            // Mengecek apakah jumlah bulan >= 12, jika iya, beri diskon 20%
+            let totalPrice = unitPrice * quantity;
+            if (quantity >= 12) {
+                totalPrice = totalPrice * 0.8; // Diskon 20%
+            }
+
+            // Format harga total dengan memeriksa apakah harga adalah angka bulat
+            let formattedPrice = totalPrice.toFixed(2);
+            if (formattedPrice.endsWith('.00')) {
+                formattedPrice = formattedPrice.slice(0, -3); // Hapus ".00" jika ada
+            }
+
+            // Menampilkan total harga dengan diskon jika ada
+            document.getElementById(`unit-Month-${planId}`).innerText = `$${formattedPrice} USD`;
+        }
+    </script>
 </body>
 
 </html>
