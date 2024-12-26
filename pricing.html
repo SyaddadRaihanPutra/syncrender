@@ -235,7 +235,10 @@
                     </div>
                     <!-- Filter Buttons -->
                     <div class="price-filter gap-3 d-flex justify-content-center mt-3">
-                        <button class="btn-filter px-3 py-1" data-filter="cpu">Pay Yearly | SAVE 20%</button>
+                        <button class="btn-filter px-3 py-1" data-filter="cpu">Pay Yearly <span
+                                style="background-color: #24b921;pointer-events: none;"
+                                class="text-white p-1 rounded">SAVE
+                                20%</span></button>
                         <button class="btn-filter px-3 py-1" data-filter="gpu">Pay Monthly</button>
                     </div>
                 </div>
@@ -248,7 +251,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-price-1">$20 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -258,12 +261,19 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
-                                    onclick="decrement(1)"><i class="far fa-minus"></i></button>
-                                <span id="quantity-1" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">12</span>
+                                    onclick="decrement(1)">
+                                    <i class="far fa-minus"></i>
+                                </button>
+                                <span id="quantity-1" class="form-control text-center mx-1 text-nowrap rounded-pill"
+                                    style="width: 100px;">
+                                    12 Month
+                                </span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
-                                    onclick="increment(1)"><i class="far fa-plus"></i></button>
+                                    onclick="increment(1)">
+                                    <i class="far fa-plus"></i>
+                                </button>
                             </div>
+
 
                             <a href="#" class="theme-btn mb-30">Get Started</a>
                             <ul class="plan-features">
@@ -283,7 +293,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-price-2">$30 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -294,8 +304,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrement(2)"><i class="far fa-minus"></i></button>
-                                <span id="quantity-2" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">12</span>
+                                <span id="quantity-2" class="form-control text-center mx-1 rounded-pill"
+                                    style="width: 100px;">12 Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="increment(2)"><i class="far fa-plus"></i></button>
                             </div>
@@ -319,7 +329,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-price-3">$50 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -330,8 +340,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrement(3)"><i class="far fa-minus"></i></button>
-                                <span id="quantity-3" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">12</span>
+                                <span id="quantity-3" class="form-control text-center mx-1 rounded-pill"
+                                    style="width: 100px;">12 Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="increment(3)"><i class="far fa-plus"></i></button>
                             </div>
@@ -355,7 +365,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-1">$20 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -366,8 +376,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(1)"><i class="far fa-minus"></i></button>
-                                <span id="quantityMonth-1" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">1</span>
+                                <span id="quantityMonth-1" class="form-control text-center mx-1 rounded-pill"
+                                    style="width: 100px;">1 Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(1)"><i class="far fa-plus"></i></button>
                             </div>
@@ -390,7 +400,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-2">$30 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -401,8 +411,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(2)"><i class="far fa-minus"></i></button>
-                                <span id="quantityMonth-2" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">1</span>
+                                <span id="quantityMonth-2" class="form-control text-center mx-1 rounded-pill"
+                                    style="width: 100px;">1 Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(2)"><i class="far fa-plus"></i></button>
                             </div>
@@ -426,7 +436,7 @@
                         <div class="price__head">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-3">$50 USD</h3>
-                                <p class="ms-4">/Per Month</p>
+                                <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
                         <div class="preice__body">
@@ -437,8 +447,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-3">
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(3)"><i class="far fa-minus"></i></button>
-                                <span id="quantityMonth-3" class="form-control text-center mx-2 rounded-pill"
-                                    style="width: 60px;">1</span>
+                                <span id="quantityMonth-3" class="form-control text-center mx-1 rounded-pill"
+                                    style="width: 100px;">1 Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(3)"><i class="far fa-plus"></i></button>
                             </div>
@@ -922,7 +932,7 @@
             if (planId === 2) pricePerMonth = 30; // Harga plan 2 (Gold)
             if (planId === 3) pricePerMonth = 50; // Harga plan 3 (Platinum)
 
-            var quantity = document.getElementById('quantity-' + planId).innerText;
+            var quantity = document.getElementById('quantity-' + planId).innerText.replace(' Month', '');
             var totalPrice = pricePerMonth * parseInt(quantity);
 
             // Terapkan diskon 20% jika quantity >= 12
@@ -942,15 +952,15 @@
         // Fungsi untuk increment
         function increment(planId) {
             var quantity = document.getElementById('quantity-' + planId);
-            quantity.innerText = parseInt(quantity.innerText) + 1;
+            quantity.innerText = parseInt(quantity.innerText.replace(' Month', '')) + 1 + ' Month';
             updateTotalPrice(planId);  // Update harga total setelah increment
         }
 
         // Fungsi untuk decrement
         function decrement(planId) {
             var quantity = document.getElementById('quantity-' + planId);
-            if (quantity.innerText > 12) { // Cegah pengurangan di bawah 12
-                quantity.innerText = parseInt(quantity.innerText) - 1;
+            if (parseInt(quantity.innerText.replace(' Month', '')) > 12) {
+                quantity.innerText = parseInt(quantity.innerText.replace(' Month', '')) - 1 + ' Month';
                 updateTotalPrice(planId);  // Update harga total setelah decrement
             }
         }
@@ -964,7 +974,7 @@
         // Fungsi untuk menambah jumlah bulan
         function incrementMonth(planId) {
             let quantity = document.getElementById(`quantityMonth-${planId}`);
-            quantity.innerText = parseInt(quantity.innerText) + 1;
+            quantity.innerText = parseInt(quantity.innerText) + 1 + ' Month';
             calculateTotal(planId); // Update total harga setelah penambahan bulan
         }
 
@@ -972,14 +982,14 @@
         function decrementMonth(planId) {
             let quantity = document.getElementById(`quantityMonth-${planId}`);
             if (parseInt(quantity.innerText) > 1) {
-                quantity.innerText = parseInt(quantity.innerText) - 1;
+                quantity.innerText = parseInt(quantity.innerText) - 1 + ' Month';
                 calculateTotal(planId); // Update total harga setelah pengurangan bulan
             }
         }
 
         // Fungsi untuk menghitung total biaya
         function calculateTotal(planId) {
-            let quantity = parseInt(document.getElementById(`quantityMonth-${planId}`).innerText);
+            let quantity = parseInt(document.getElementById(`quantityMonth-${planId}`).innerText.replace(' Month', ''));
             let unitPrice;
 
             // Menentukan harga per bulan berdasarkan paket

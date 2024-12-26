@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Trigger CPU filter button click to highlight it if the button exists
   const cpuFilterButton = document.querySelector(
-    '.btn-filter[data-filter="cpu"]'
+    '.btn-filter[data-filter="gpu"]'
   );
   if (cpuFilterButton) {
     cpuFilterButton.click();
