@@ -8176,8 +8176,8 @@
     font-style: normal;
     font-weight: normal;
     font-display: auto;
-    src: url(../fonts/fa-brands-400.eot);
-    src: url(../fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff")
+    src: url(../fonts-new/fa-brands-400.eot);
+    src: url(../fonts-new/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts-new/fa-brands-400.woff2) format("woff2"), url(../fonts-new/fa-brands-400.woff) format("woff")
 }
 
 .fab {
@@ -8189,8 +8189,8 @@
     font-style: normal;
     font-weight: 300;
     font-display: auto;
-    src: url(../fonts/fa-light-300.eot);
-    src: url(../fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-light-300.woff2) format("woff2"), url(../fonts/fa-light-300.woff) format("woff")
+    src: url(../fonts-new/fa-light-300.eot);
+    src: url(../fonts-new/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts-new/fa-light-300.woff2) format("woff2"), url(../fonts-new/fa-light-300.woff) format("woff")
 }
 
 .fal {
@@ -8202,8 +8202,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(../fonts/fa-regular-400.eot);
-    src: url(../fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff")
+    src: url(../fonts-new/fa-regular-400.eot);
+    src: url(../fonts-new/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts-new/fa-regular-400.woff2) format("woff2"), url(../fonts-new/fa-regular-400.woff) format("woff")
 }
 
 .fal,
@@ -8220,8 +8220,8 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url(../fonts/fa-solid-900.eot);
-    src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff")
+    src: url(../fonts-new/fa-solid-900.eot);
+    src: url(../fonts-new/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts-new/fa-solid-900.woff2) format("woff2"), url(../fonts-new/fa-solid-900.woff) format("woff")
 }
 
 .fa,
@@ -8232,10 +8232,10 @@
 
 @font-face {
     font-family: "flaticon";
-    src: url("../fonts/flaticon.ttf?981789d1bcb9da89ed2289dbea268937") format("truetype"),
-    url("../fonts/flaticon.woff?981789d1bcb9da89ed2289dbea268937") format("woff"),
-    url("../fonts/flaticon.woff2?981789d1bcb9da89ed2289dbea268937") format("woff2"),
-    url("../fonts/flaticon.eot?981789d1bcb9da89ed2289dbea268937#iefix") format("embedded-opentype");
+    src: url("../fonts-new/flaticon.ttf?981789d1bcb9da89ed2289dbea268937") format("truetype"),
+    url("../fonts-new/flaticon.woff?981789d1bcb9da89ed2289dbea268937") format("woff"),
+    url("../fonts-new/flaticon.woff2?981789d1bcb9da89ed2289dbea268937") format("woff2"),
+    url("../fonts-new/flaticon.eot?981789d1bcb9da89ed2289dbea268937#iefix") format("embedded-opentype");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -8309,12 +8309,12 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 
 @font-face {
   font-family: 'techex';
-  src: url('../fonts/techex.eot?57059612');
-  src: url('../fonts/techex.eot?57059612#iefix') format('embedded-opentype'),
-       url('../fonts/techex.woff2?57059612') format('woff2'),
-       url('../fonts/techex.woff?57059612') format('woff'),
-       url('../fonts/techex.ttf?57059612') format('truetype'),
-       url('../fonts/techex.svg?57059612#techex') format('svg');
+  src: url('../fonts-new/techex.eot?57059612');
+  src: url('../fonts-new/techex.eot?57059612#iefix') format('embedded-opentype'),
+       url('../fonts-new/techex.woff2?57059612') format('woff2'),
+       url('../fonts-new/techex.woff?57059612') format('woff'),
+       url('../fonts-new/techex.ttf?57059612') format('truetype'),
+       url('../fonts-new/techex.svg?57059612#techex') format('svg');
   font-weight: normal;
   font-style: normal;
 }
