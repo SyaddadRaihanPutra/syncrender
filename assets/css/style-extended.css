@@ -1,3 +1,34 @@
+html{
+    background: #211e3b;
+}
+.features-2{
+    background: #211e3b;
+}
+.section-title-3 h2{
+    color: #fff;
+}
+h1, h2, h4, h5, h6{
+    color: #fff;
+}
+.checked-list li{
+    color: #fff;
+}
+.section-title.section__title_3 h2{
+    color: #fff;
+}
+.prosess-wrapper .prosess-element h4{
+    color: #fff;
+}
+.blog-wrapper{
+    background: #211e3b;
+}
+.testimonial-carousel-3 .single-testimonial .client-info p{
+    padding-left: 0px;
+}
+.single-case-study {
+    -webkit-box-shadow: none;
+    box-shadow: 0px 10px 60px 0px rgba(56, 56, 56, 0.45);
+}
 span.text-primary{color:#007bff!important}
 p.tagline-cloud-rendering{color:#eaeaeac5;letter-spacing:1px}
 .step .icon{transition:background-color .5s ease,transform .5s ease;background-color:transparent}

@@ -194,19 +194,22 @@
                         <img src="assets/img/software-logo/cinema-4d.webp" alt="cinema-4d" class="software-logo">
                         <img src="assets/img/software-logo/blender.webp" alt="blender" class="software-logo">
                         <img src="assets/img/software-logo/unreal-engine.webp" alt="unreal-engine"
-                            class="software-logo">
+                            class="software-logo rounded-circle bg-white">
                         <img src="assets/img/software-logo/v-ray.webp" alt="v-ray" class="software-logo">
                         <img src="assets/img/software-logo/corona.webp" alt="corona-renderer" class="software-logo">
                         <img src="assets/img/software-logo/redshift.webp" alt="redshift" class="software-logo">
-                        <img src="assets/img/software-logo/octane.webp" alt="octane" class="software-logo">
+                        <img src="assets/img/software-logo/octane.webp" alt="octane"
+                            class="software-logo bg-white rounded-circle">
                         <img src="assets/img/software-logo/arnold.webp" alt="arnold" class="software-logo">
-                        <img src="assets/img/software-logo/katana.webp" alt="arnold" class="software-logo">
+                        <img src="assets/img/software-logo/katana.webp" alt="arnold"
+                            class="software-logo bg-white rounded-circle">
                         <img src="assets/img/software-logo/nuke.webp" alt="arnold" class="software-logo">
                         <img src="assets/img/software-logo/render-man.webp" alt="arnold" class="software-logo">
                         <img src="assets/img/software-logo/anima®.webp" alt="arnold" class="software-logo">
                         <img src="assets/img/software-logo/forest-pack.webp" alt="arnold" class="software-logo">
                         <img src="assets/img/software-logo/rail-clone.webp" alt="arnold" class="software-logo">
-                        <img src="assets/img/software-logo/x-particles.webp" alt="arnold" class="software-logo">
+                        <img src="assets/img/software-logo/x-particles.webp" alt="arnold"
+                            class="software-logo bg-white rounded-circle">
                         <img src="assets/img/software-logo/miarmy.webp" alt="arnold" class="software-logo">
                     </div>
                     <div class="shadow mt-5" style="border-radius: 15px; overflow: hidden;">
@@ -222,35 +225,38 @@
         </svg>
     </section>
 
-    <section class="price__wrapper section-padding-3">
+    <section class="price__wrapper section-padding-3" style="background: #211e3b;">
         <div class="container">
             <!-- Filter Section -->
             <div class="row">
                 <div class="col-12 text-center mb-30">
-                    <div class="section-title section__title_3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="section-title section__title_3 aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100">
                         <h6>
-                            <img src="./assets/img/home5/bage.svg" alt />Pricing Package
+                            <img src="./assets/img/home5/bage.svg" alt="">Pricing Package
                         </h6>
                         <h2>Choose Your Best Plan</h2>
                     </div>
                     <!-- Filter Buttons -->
                     <div class="price-filter gap-3 d-flex justify-content-center mt-3">
-                        <button class="btn-filter px-3 py-1" data-filter="cpu">Pay Yearly <span
+                        <button class="btn-filter px-3" data-filter="cpu">Pay Yearly <span
                                 style="background-color: #24b921;pointer-events: none;"
                                 class="text-white p-1 rounded">SAVE
                                 20%</span></button>
-                        <button class="btn-filter px-3 py-1" data-filter="gpu">Pay Monthly</button>
+                        <button class="btn-filter px-3 bg-primary text-white px-2 py-1 rounded-3" data-filter="gpu">Pay
+                            Monthly</button>
                     </div>
                 </div>
             </div>
             <!-- Pricing Cards -->
             <div class="row" id="pricing-cards">
                 <!-- CPU Pricing Plan 1 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing" data-aos="fade-up">
-                    <div class="price__element">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    style="display: none;">
+                    <div class="price__element bg-dark">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
-                                <h3 class="ms-4" id="unit-price-1">$20 USD</h3>
+                                <h3 class="ms-4" id="unit-price-1">$192 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
@@ -276,7 +282,7 @@
 
 
                             <a href="#" class="theme-btn mb-30">Get Started</a>
-                            <ul class="plan-features">
+                            <ul class="plan-features text-white">
                                 <li>Basic cloud storage.</li>
                                 <li>Dashboard access, similar to Trello, for better project management and tracking.
                                 </li>
@@ -288,11 +294,12 @@
                 </div>
 
                 <!-- CPU Pricing Plan 2 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element shadow-lg border border-3 border-primary">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="100" style="display: none;">
+                    <div class="price__element bg-dark shadow-lg border border-3 border-primary">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
-                                <h3 class="ms-4" id="unit-price-2">$30 USD</h3>
+                                <h3 class="ms-4" id="unit-price-2">$288 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
@@ -305,13 +312,14 @@
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrement(2)"><i class="far fa-minus"></i></button>
                                 <span id="quantity-2" class="form-control text-center mx-1 rounded-pill"
-                                    style="width: 100px;">12 Month</span>
+                                    style="width: 100px;">12
+                                    Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="increment(2)"><i class="far fa-plus"></i></button>
                             </div>
 
                             <a href="#" class="theme-btn mb-30">Get Started</a>
-                            <ul class="plan-features">
+                            <ul class="plan-features text-white">
                                 <li>All features of Silver, plus</li>
                                 <li>Dashboard access, similar to Trello, for better project management and tracking.
                                 </li>
@@ -324,11 +332,12 @@
                 </div>
 
                 <!-- CPU Pricing Plan 3 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 cpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="100" style="display: none;">
+                    <div class="price__element bg-dark">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
-                                <h3 class="ms-4" id="unit-price-3">$50 USD</h3>
+                                <h3 class="ms-4" id="unit-price-3">$480 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
                             </div>
                         </div>
@@ -341,7 +350,8 @@
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrement(3)"><i class="far fa-minus"></i></button>
                                 <span id="quantity-3" class="form-control text-center mx-1 rounded-pill"
-                                    style="width: 100px;">12 Month</span>
+                                    style="width: 100px;">12
+                                    Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="increment(3)"><i class="far fa-plus"></i></button>
                             </div>
@@ -360,9 +370,10 @@
                 </div>
 
                 <!-- GPU Pricing Plan 1 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up">
-                    <div class="price__element">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    style="display: block;">
+                    <div class="price__element bg-dark">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-1">$20 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
@@ -377,13 +388,14 @@
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(1)"><i class="far fa-minus"></i></button>
                                 <span id="quantityMonth-1" class="form-control text-center mx-1 rounded-pill"
-                                    style="width: 100px;">1 Month</span>
+                                    style="width: 100px;">1
+                                    Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(1)"><i class="far fa-plus"></i></button>
                             </div>
 
                             <a href="#" class="theme-btn mb-30" onclick="calculateTotal(1)">Get Started</a>
-                            <ul class="plan-features">
+                            <ul class="plan-features text-white">
                                 <li>Basic cloud storage.</li>
                                 <li>Dashboard access, similar to Trello, for better project management and tracking.
                                 </li>
@@ -395,9 +407,10 @@
                 </div>
 
                 <!-- GPU Pricing Plan 2 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element shadow-lg border border-3 border-primary">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="100" style="display: block;">
+                    <div class="price__element bg-dark shadow-lg border border-3 border-primary">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-2">$30 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
@@ -412,13 +425,14 @@
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(2)"><i class="far fa-minus"></i></button>
                                 <span id="quantityMonth-2" class="form-control text-center mx-1 rounded-pill"
-                                    style="width: 100px;">1 Month</span>
+                                    style="width: 100px;">1
+                                    Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(2)"><i class="far fa-plus"></i></button>
                             </div>
 
                             <a href="#" class="theme-btn mb-30" onclick="calculateTotal(2)">Get Started</a>
-                            <ul class="plan-features">
+                            <ul class="plan-features text-white">
                                 <li>All features of Silver, plus</li>
                                 <li>Dashboard access, similar to Trello, for better project management and tracking.
                                 </li>
@@ -431,9 +445,10 @@
                 </div>
 
                 <!-- GPU Pricing Plan 3 -->
-                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing" data-aos="fade-up" data-aos-delay="100">
-                    <div class="price__element">
-                        <div class="price__head">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-30 gpu-pricing aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="100" style="display: block;">
+                    <div class="price__element bg-dark">
+                        <div class="price__head bg-dark">
                             <div class="price__range">
                                 <h3 class="ms-4" id="unit-Month-3">$50 USD</h3>
                                 <p class="ms-4">&nbsp;</p>
@@ -448,13 +463,14 @@
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="decrementMonth(3)"><i class="far fa-minus"></i></button>
                                 <span id="quantityMonth-3" class="form-control text-center mx-1 rounded-pill"
-                                    style="width: 100px;">1 Month</span>
+                                    style="width: 100px;">1
+                                    Month</span>
                                 <button class="btn btn-outline-primary rounded-circle" type="button"
                                     onclick="incrementMonth(3)"><i class="far fa-plus"></i></button>
                             </div>
 
                             <a href="#" class="theme-btn mb-30" onclick="calculateTotal(3)">Get Started</a>
-                            <ul class="plan-features">
+                            <ul class="plan-features text-white">
                                 <li>Full cloud storage management with optimized performance.</li>
                                 <li>Dashboard access, similar to Trello, for better project management and tracking.
                                 </li>
@@ -466,7 +482,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gpu-pricing mt-5">
+            <div class="gpu-pricing mt-5 text-white" style="display: block;">
                 CPU cost equation: CPU unit price × render hours
                 <p><b>Remarks:</b></p>
                 <ol class="list-group-numbered">
@@ -477,7 +493,7 @@
                         upon task submission.</li>
                 </ol>
             </div>
-            <div class="cpu-pricing mt-5">
+            <div class="cpu-pricing mt-5 text-white" style="display: none;">
                 CPU cost equation: CPU unit price × render hours
                 <p><b>Remarks:</b></p>
                 <ol class="list-group-numbered">
@@ -501,13 +517,13 @@
         <div class="container my-5">
             <div class="col-12 text-center mb-30">
                 <div class="section-title section__title_3" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Select Your Project Type</h3>
+                    <h3 class="text-white">Select Your Project Type</h3>
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-3 col-12 mb-3">
-                    <div class="card text-center">
+                    <div class="card text-center bg-dark">
                         <img src="assets/img/simple-modeling.jpg" alt="Simple Modeling" class="img-fluid mb-3">
                         <h5 class="py-4">Simple Modeling</h5>
                         <div class="d-flex justify-content-center align-items-center pb-4">
@@ -525,7 +541,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-12 mb-3">
-                    <div class="card text-center">
+                    <div class="card text-center bg-dark">
                         <img src="assets/img/complex-modeling.jpg" alt="Complex Modeling" class="img-fluid mb-3">
                         <h5 class="py-4">Complex Modeling</h5>
                         <div class="d-flex justify-content-center align-items-center pb-4">
@@ -543,7 +559,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-12 mb-3">
-                    <div class="card text-center">
+                    <div class="card text-center bg-dark">
                         <img src="assets/img/lifestyle-simple.jpg" alt="Lifestyle Simple" class="img-fluid mb-3">
                         <h5 class="py-4">Simple Lifestyle</h5>
                         <div class="d-flex justify-content-center align-items-center pb-4">
@@ -561,7 +577,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-12 mb-3">
-                    <div class="card text-center">
+                    <div class="card text-center bg-dark">
                         <img src="assets/img/lifestyle-complex.jpg" alt="Lifestyle Complex" class="img-fluid mb-3">
                         <h5 class="py-4">Complex Lifestyle</h5>
                         <div class="d-flex justify-content-center align-items-center pb-4">
@@ -583,13 +599,13 @@
             <div class="mt-100">
                 <div class="col-12 text-center mb-30">
                     <div class="section-title section__title_3">
-                        <h3>Select More Options For Your Project</h3>
+                        <h3 class="text-white">Select More Options For Your Project</h3>
                     </div>
                 </div>
                 <div class="container my-5">
                     <div class="row g-4">
                         <div class="col-md-4 d-flex align-items-center gap-3 justify-content-end">
-                            <span>Print Design</span>
+                            <span class="text-white">Print Design</span>
                             <div class="input-group" style="width: 120px;">
                                 <button class="btn btn-outline-secondary" type="button"
                                     onclick="decrementCounter('printDesignCounter')">−</button>
@@ -600,7 +616,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 d-flex align-items-center gap-3 justify-content-end">
-                            <span>360°</span>
+                            <span class="text-white">360°</span>
                             <div class="input-group" style="width: 120px;">
                                 <button class="btn btn-outline-secondary" type="button"
                                     onclick="decrementCounter('_360Counter')">−</button>
@@ -610,7 +626,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-center gap-3 justify-content-end">
-                            <span>High-Res Images</span>
+                            <span class="text-white">High-Res Images</span>
                             <div class="input-group" style="width: 120px;">
                                 <button class="btn btn-outline-secondary" type="button"
                                     onclick="decrementCounter('highResImagesCounter')">−</button>
@@ -621,7 +637,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 d-flex align-items-center gap-3 justify-content-end">
-                            <span>Animation (3 sec)</span>
+                            <span class="text-white">Animation (3 sec)</span>
                             <div class="input-group" style="width: 120px;">
                                 <button class="btn btn-outline-secondary" type="button"
                                     onclick="decrementCounter('animationCounter')">−</button>
